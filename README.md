@@ -1,10 +1,13 @@
 # TravelrMap
 ![travelerMap logo](assets/images/travelrmap_logo.png)
 ### _Your ultimate travel companion. Discover unfamiliar surrondings in new places._
-[Back To Top](#TravelrMap)
+[Back To Top](#travelrmap)
 
 # Table of Contents
 - [UX](#ux)
+  * [Goals](#goals)
+  * [External User Goal:](#external-user-goal)
+  * [Product Owner Goal:](#product-owner-goal)
 
 # UX
 ## Goals
@@ -13,7 +16,10 @@ A travel web application for travellers to create a lifetime experience for them
 ### External User Goal:
 - Find the most suitable holiday destination to fulfil their needs.
 
-### Product Owner's Goal:
+### Product Owner Goal:
 - Allow users to find places of attractions from TravelrMap so the website becomes a popular site in exploring new destinations. 
 
+[Back To UX](#ux)
+
+[Back To Top](#travelrmap)
 
