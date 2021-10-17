@@ -57,8 +57,37 @@ Before jumping to developing my wireframes and begin coding, I decided to do a b
 ### User Interview 3: 
 ![User Interview 3](assets/readme_images/user_interview_3.png)
 
+To summarise:
+
+### User Pain Points:
+
+__Disintegrated planning and booking__
+
+The internet has vast amount of information in how people can easily plan and book their travel. However, as travel sites and information has increased, so has the complexity of planning and booking a trip.
+
+- It takes too much time and hassle to find points of interests when planning trips. As a user they'll have to visit various websites or applications to find their required details to make an informed choice.
+- Feeling overwhelmed from having to navigate multiple pages and having to keep many tabs open, adding complexity to make a decision. This creates a negative experience for a user, as travel _should_ be a fun thing to do!
+  - Nielson [1] research has found that:
+    >Travelers spent an average of 53 days visiting 28 different websites over a period of 76 online sessions. 
+
+That is a lot of time and effort for the average person to find their right travel plans. This can be further negative/painful for someone who is trying to plan an itinerary alongside a full-time career and family commitments. 
+
+__Mobile Booking__
+
+70% of millennials book travel activities on mobile sevices. Research from Google Consumer Insights find that more than half of South Korean and Japanese smartphone users research, book and plan their trips on their mobile devices! [2]
+
+- If applications and websites do not operate on mobile, then user experience will thus decrease. Therefore, it is imperative to ensure TravelrMap is fulfilling this need.
+
+__Not having the right information__
+
+
 [Back To Buyer Personas](#buyer-personas)
 
 [Back To UX](#ux)
 
 [Back To Top](#travelrmap)
+
+# Research Credit:
+1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
+2. https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/consumer-travel-smartphone-usage/
+
