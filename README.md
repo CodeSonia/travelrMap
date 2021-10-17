@@ -9,6 +9,7 @@
     * [External User Goal:](#external-user-goal)
     * [Product Owner Goal:](#product-owner-goal)
   * [Purpose](#purpose)
+    * [Why](#why)
 
 # UX
 ## Goals
@@ -23,7 +24,17 @@ A travel web application for travellers to create a lifetime experience for them
 ## Purpose
 The project's purpose is to help increase the love of travelling by **removing the hassle of using multiple sources** to plan a trip and increase positive user experience, **by aiding their travel search with providing the right information at the right time**. 
 
+![travel made easy with travelrMap](assets/images/travel_made_easy.png)
+
 Users should find the website application eliciting a positive emotional response, as it is intuitive, simple and most importantly fun to use!
+
+_TravelrMap is an online application that allows users to easily find interesting places. This enables users to help plan their next trip by finding all of their information on one site._
+
+### Why?
+
+**TravelrMap will help change the way people think about travelling**
+
+Why not inspire yourself with sites of attractions listed from the most exclusive locations, and help plan your trip! 
 
 [Back To UX](#ux)
 
