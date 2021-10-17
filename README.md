@@ -10,6 +10,10 @@
     * [Product Owner Goal:](#product-owner-goal)
   * [Purpose](#purpose)
     * [Why](#why)
+  * [Buyer Personas](#buyer-personas)
+    * [User Interview 1](#user-interview-1)
+    * [User Interview 2](#user-interview-2)
+    * [User Interview 3](#user-interview-3)
 
 # UX
 ## Goals
@@ -24,7 +28,7 @@ A travel web application for travellers to create a lifetime experience for them
 ## Purpose
 The project's purpose is to help increase the love of travelling by **removing the hassle of using multiple sources** to plan a trip and increase positive user experience, **by aiding their travel search with providing the right information at the right time**. 
 
-![travel made easy with travelrMap](assets/images/travel_made_easy.png)
+![travel made easy with travelrMap](assets/readme_images/travel_made_easy.png)
 
 Users should find the website application eliciting a positive emotional response, as it is intuitive, simple and most importantly fun to use!
 
@@ -40,3 +44,15 @@ Why not inspire yourself with sites of attractions listed from the most exclusiv
 
 [Back To Top](#travelrmap)
 
+## Buyer Personas
+
+Before jumping to developing my wireframes and begin coding, I decided to do a bit of user research to help feed my user stories. I interviewed a couple of friends and family to identify their goals and expectations when they travel.
+
+### User Interview 1: 
+![User Interview 1](assets/readme_images/user_interview_1.png)
+
+[Back To Buyer Personas](#buyer-personas)
+
+[Back To UX](#ux)
+
+[Back To Top](#travelrmap)
