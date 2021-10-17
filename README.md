@@ -54,6 +54,9 @@ Before jumping to developing my wireframes and begin coding, I decided to do a b
 ### User Interview 2: 
 ![User Interview 2](assets/readme_images/user_interview_2.png)
 
+### User Interview 3: 
+![User Interview 3](assets/readme_images/user_interview_3.png)
+
 [Back To Buyer Personas](#buyer-personas)
 
 [Back To UX](#ux)
