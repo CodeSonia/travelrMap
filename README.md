@@ -6,8 +6,9 @@
 # Table of Contents
 - [UX](#ux)
   * [Goals](#goals)
-  * [External User Goal:](#external-user-goal)
-  * [Product Owner Goal:](#product-owner-goal)
+    * [External User Goal:](#external-user-goal)
+    * [Product Owner Goal:](#product-owner-goal)
+  * [Purpose](#purpose)
 
 # UX
 ## Goals
@@ -18,6 +19,11 @@ A travel web application for travellers to create a lifetime experience for them
 
 ### Product Owner Goal:
 - Allow users to find places of attractions from TravelrMap so the website becomes a popular site in exploring new destinations. 
+
+## Purpose
+The project's purpose is to help increase the love of travelling by **removing the hassle of using multiple sources** to plan a trip and increase positive user experience, **by aiding their travel search with providing the right information at the right time**. 
+
+Users should find the website application eliciting a positive emotional response, as it is intuitive, simple and most importantly fun to use!
 
 [Back To UX](#ux)
 
