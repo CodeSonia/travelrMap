@@ -421,9 +421,9 @@ Please find below snapshots of the wireframes below:
 
 [Back To Top](#travelrmap)
 
-#### Tablet:
+### Tablet:
 
-### Tablet Wireframe: Home - 
+#### Tablet Wireframe: Home - 
 <details><summary></summary>
 
 ![Tablet Wireframe: Home](assets/wireframes/tablet/table_home_wireframe.png)
