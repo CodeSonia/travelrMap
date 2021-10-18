@@ -5,6 +5,7 @@
 
 # Table of Contents
 - [UX](#ux)
+- [Strategy](#strategy)
   * [Goals](#goals)
     * [External User Goal:](#external-user-goal)
     * [Product Owner Goal:](#product-owner-goal)
@@ -26,13 +27,19 @@
   * [User Stories](#user-stories)
 
 # UX
+
+Before writing any code, I conducted user research and used Jesse James Garrett's User-Centred Design process to help ensure TravelrMap is useful, useable and provides value to both users and site owner.
+
+[Back To Top](#travelrmap)
+# Strategy
+
 ## Goals
 A travel web application for travellers to create a lifetime experience for themselves and others with less hassle. The website allows users to find their site of attraction conveniently and efficiently, by providing useful information and/or suggestions on places to visit based on the user's interests. Perfect for those who are looking to visit an unfamiliar city and enable them to _learn, discover, find new adventures and explore new cultures._
 
 ### External User Goal:
 - Find the most suitable holiday destination to fulfil their needs.
 
-### Product Owner Goal:
+## Product Owner Goal:
 - Allow users to find places of attractions from TravelrMap so the website becomes a popular site in exploring new destinations. 
 
 ## Purpose
@@ -50,7 +57,7 @@ _TravelrMap is an online application that allows users to easily find interestin
 
 Why not inspire yourself with sites of attractions listed from the most exclusive locations, and help plan your trip! 
 
-[Back To UX](#ux)
+[Back To Strategy](#strategy)
 
 [Back To Top](#travelrmap)
 
@@ -69,9 +76,9 @@ Before jumping to developing my wireframes and begin coding, I decided to do a b
 
 To summarise:
 
-### User Pain Points:
+## User Pain Points:
 
-#### Disintegrated planning and booking
+### Disintegrated planning and booking
 <details><summary></summary> 
 
 The internet has vast amount of information in how people can easily plan and book their travel. However, as travel sites and information has increased, so has the complexity of planning and booking a trip.
@@ -102,7 +109,7 @@ It also means, that users would like to know someone else had an enjoyable exper
 
 [Back To Buyer Personas](#buyer-personas)
 
-[Back To UX](#ux)
+[Back To Strategy](#strategy)
 
 [Back To Top](#travelrmap)
 
@@ -121,7 +128,7 @@ It also means, that users would like to know someone else had an enjoyable exper
 - 404 error to inform users that a page does not exist
 - User feedback when user makes an error
 
-[Back To UX](#ux)
+[Back To Strategy](#strategy)
 
 [Back To Top](#travelrmap)
 
@@ -131,7 +138,7 @@ It also means, that users would like to know someone else had an enjoyable exper
 - Allow users to share their points of interests with their friends or families.
 - Instant adventure - modern travellers look for more flexibility when they're quite spontaneous while travelling, meaning being influences by weather or mood. TravelrMap will allow users to find points of attractions while on their trip to aid this. 
 
-[Back To UX](#ux)
+[Back To Strategy](#strategy)
 
 [Back To Top](#travelrmap)
 
@@ -151,7 +158,7 @@ It also means, that users would like to know someone else had an enjoyable exper
 
 _Please note, some of these values are more aligned for long-term goals for TravelrMap, as it will not be feasible to develop all of this at once. Please see below Strategy Table and Scope for more context._
 
-[Back To UX](#ux)
+[Back To Strategy](#strategy)
 
 [Back To Top](#travelrmap)
 
@@ -180,9 +187,13 @@ As a User...
 - I want to be able to access social media accounts, so I can be part of TravelrMap's community.
 - I want to be able to switch to a dark mode version of the website, so that when I am browsing in the night or evening, it will help reduce eye strain.
 
-[Back To UX](#ux)
+[Back To Strategy](#strategy)
 
 [Back To Top](#travelrmap)
+
+## Strategy Table
+
+
 
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
