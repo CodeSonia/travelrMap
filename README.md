@@ -38,6 +38,14 @@
   * [Learnable](#learnable)
   * [Feedback](#feedback)
   * [Information Architecture](#information-architecture)
+- [Skeleton](#skeleton)
+  * [Mobile](#mobile)
+    * [Mobile Wireframe: Home](#mobile-wireframe-home)
+    * [Mobile Wireframe: About](#mobile-wireframe-about)
+    * [Mobile Wireframe: TravelrMap Feature](#mobile-wireframe-travelrmap-feature)
+    * [Mobile Wireframe: Things to Do](#mobile-wireframe-things-to-do)
+    * [Mobile Wireframe: Quiz](#mobile-wireframe-quiz)
+    * [Mobile Wireframe: Footer](#mobile-wireframe-footer)
 
 # UX
 
@@ -347,6 +355,64 @@ I also incorporated information architecture, which meant that the organisation,
   </details>
 
 [Back To Structure](#structure)
+
+[Back To Top](#travelrmap)
+
+## Skeleton
+I wanted to ensure the flow and functionality is seamless for the users before development stage. As I have features releasing in phase 2 and 3, I intend the website to evolve as a platform where users are able to book their destination. 
+
+In addition, it'll also encompass different continents and regions such as Europe, Middle Eastern, Africa and so on. 
+
+Please find below snapshots of the wireframes below:
+
+### Mobile:
+
+#### Mobile Wireframe: Home - 
+<details><summary></summary>
+
+![Mobile Wireframe: Home](assets/wireframes/mobile/mobile_home_wireframe.png)
+</details>
+
+#### Mobile Wireframe: About - 
+<details><summary></summary>
+
+![Mobile Wireframe: About](assets/wireframes/mobile/mobile_about_wireframe.png)
+</details>
+
+#### Mobile Wireframe: TravelrMap Feature - 
+<details><summary></summary>
+
+![Mobile Wireframe: TravelrMap](assets/wireframes/mobile/mobile_map_wireframe.png)
+</details>
+
+#### Mobile Wireframe: Things to Do - 
+<details><summary></summary>
+
+![Mobile Wireframe: Things to Do](assets/wireframes/mobile/mobile_things_to_do_wireframe.png)
+
+</details>
+
+#### Mobile Wireframe: Quiz -
+<details><summary></summary>
+
+![Mobile Wireframe: Quiz](assets/wireframes/mobile/mobile_quiz_wireframe.png)
+</details>
+
+#### Mobile Wireframe: Contact - 
+<details><summary></summary>
+
+![Mobile Wireframe: Contact](assets/wireframes/mobile/mobile_contact_wireframe.png)
+</details>
+
+#### Mobile Wireframe: Footer - 
+<details><summary></summary>
+
+![Mobile Wireframe: Footer](assets/wireframes/mobile/mobile_footer_wireframe.png)
+</footer>
+
+</details>
+
+[Back To Skeleton](#skeleton)
 
 [Back To Top](#travelrmap)
 
