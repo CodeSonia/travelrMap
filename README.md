@@ -32,6 +32,12 @@
   * [Release 1: (Informative Stage)](#release-1-informative-stage)
   * [Release 2: (Extra Functionality)](#release-2-extra-functionality)
   * [Release 3: (End Product)](#release-3-end-product)
+- [Structure](#structure)
+  * [Consistency](#consistency)
+  * [Visible](#visible)
+  * [Learnable](#learnable)
+  * [Feedback](#feedback)
+  * [Information Architecture](#information-architecture)
 
 # UX
 
@@ -274,6 +280,73 @@ This is important since "__Content is King!"__ which implies that the reasoning 
 The great thing about having a MVP and planned releases enables me to create a "WOW" effect. Therefore, as I unfold new features, new user experiences are created for the future. Thus, surprising users with incremental changes that have meaningful values.
 
 [Back To Scope](#scope)
+
+[Back To Top](#travelrmap)
+
+## Structure 
+To leverage user's prior behaviour and experience, I incorporated interaction design. This means that I took advantage of design patterns and sequences that provide options to the user i.e. navigation or order of menu items.
+
+I also incorporated information architecture, which meant that the organisation, arrangement and priority of content were considered. For example, when users read a navbar they tend to read from the left to right, thus, the top priority of information were displayed on the left with diminishing priority.
+
+### Consistency 
+<details><summary></summary>
+
+- Navbar Elements
+  - Users expect the logo identifying the site to be on the top-left corner and the primary navigation to be across the top or down the left-side.
+- Follow conventions - elements are located and behave the way users expect. Using Jakob's Law, users prefer a website application to work the same way as all the other sites they already know. Therefore, when considering structure, and to make my site easy to use, I followed the following standardised design patterns:
+  - Visual Hierarchy
+  - Pages are broken up into clearly defined areas
+  - A link is obvious that it is clickable
+  - Eliminating distractions
+  - Format content to support scanning i.e. golden ratio or z-rule
+- Elements and interactive features are consistent, both in coding and theme.
+- Leveraging upon user's prior experience.
+- Labels/buttons/terms are consistent throughout the design.
+- Content and imagery have a stable and consistent style
+  - Incorporating both visual imagery and illustrations
+</details>
+
+### Visible
+<details> <summary></summary>
+
+- All elements are discoverable and easy to find & use.
+- Incorporate content hinting, where partial elements are revealed
+  - i.e. partially reveal the next section of the page, just above the fold so that users are encouraged to scroll. This helps with TravelrMap being intuitive.
+</details>
+
+### Learnable
+<details><summary></summary>
+
+- Provide a strong sense of place i.e. indication of which page a user is on or page title.
+- Users expect that when hovering their mouse over a nav-link, they'll be revealed through sub-menus.
+</details>
+
+### Feedback 
+<details><summary></summary>
+
+- Clearly visit change in state i.e. color change
+- Clear feedback if inputting a form incorrectly
+- Instructional design providing user feedback in the case of user error i.e. broken link or 404 error.
+</details>
+
+### Information Architecture
+<details><summary></summary>
+
+- Create visual hierarchies
+  - It influences the order in which our eye chooses to look at elements
+  - Appearance of elements on the page (visual cues) accurately portray the relationship between the things on the page
+    - which things are most important
+    - which things are smaller
+    - which things are part of other things
+  - Typography Scale
+    - Majority of the interface will be occupied by text.
+      - The most important element is more prominent.
+        - Larger, bolder and distinctive color or closer to the top of the page.
+      - Things that are related logically are related visually 
+      - Nesting 
+  </details>
+
+[Back To Structure](#structure)
 
 [Back To Top](#travelrmap)
 
