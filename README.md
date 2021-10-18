@@ -53,6 +53,15 @@
     * [Tablet Wireframe: Things to Do](#tablet-wireframe-things-to-do)
     * [Tablet Wireframe: Quiz](#tablet-wireframe-quiz)
     * [Tablet Wireframe: Footer](#tablet-wireframe-footer)
+  * [Desktop](#desktop)
+    * [Desktop Wireframe: Home](#desktop-wireframe-home)
+    * [Desktop Wireframe: About](#desktop-wireframe-about)
+    * [Desktop Wireframe: TravelrMap Feature](#desktop-wireframe-travelrmap-feature)
+    * [Desktop Wireframe: Things To Do](#desktop-wireframe-things-to-do)
+    * [Desktop Wireframe: Attractions](#desktop-wireframe-attractions)
+    * [Desktop Wireframe: Quiz](#desktop-wireframe-quiz)
+    * [Desktop Wireframe: Contact](#desktop-wireframe-contact)
+    * [Desktop Wireframe: Footer](#desktop-wireframe-footer)
 
 # UX
 
@@ -506,6 +515,22 @@ Please find below snapshots of the wireframes below:
 
 ![Desktop Wireframe: Quiz](assets/wireframes/desktop/desktop_quiz_wireframe.png)
 </details>
+
+#### Desktop Wireframe: Contact - 
+<details><summary></summary>
+
+![Desktop Wireframe: Contact](assets/wireframes/desktop/desktop_contact_wireframe.png)
+</details>
+
+#### Desktop Wireframe: Footer - 
+<details><summary></summary>
+
+![Desktop Wireframe: Footer](assets/wireframes/desktop/desktop_footer_wireframe.png)
+</details>
+
+[Back To Skeleton](#skeleton)
+
+[Back To Top](#travelrmap)
 
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
