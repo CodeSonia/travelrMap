@@ -19,6 +19,10 @@
     * [Mobile Booking](#mobile-booking)
     * [Not having the right information](#not-having-the-right-information)
   * [User Expectations](#user-expectations)
+  * [Business Solution](#business-solution)
+  * [Values](#values)
+    * [Value for the User](#value-for-the-user)
+    * [Value for TravelrMap](#value-for-travelrmap)
 
 # UX
 ## Goals
@@ -119,6 +123,32 @@ It also means, that users would like to know someone else had an enjoyable exper
 [Back To UX](#ux)
 
 [Back To Top](#travelrmap)
+
+## Business Solution:
+
+- Build an informative website application which provides useful information for the users when planning to travel or wanting to feel inspired for their next trip.
+- Allow users to share their points of interests with their friends or families.
+- Instant adventure - modern travellers look for more flexibility when they're quite spontaneous while travelling, meaning being influences by weather or mood. TravelrMap will allow users to find points of attractions while on their trip to aid this. 
+
+[Back To UX](#ux)
+
+[Back To Top](#travelrmap)
+
+## Values:
+
+### Value for the User:
+- Maximum time saved on finding and discovering places to go with reduced amount of hassle.
+- Able to easily navigate pre-travel and during travel plans.
+- Creating a sense of community of those who love travelling and who are planning a trip together. 
+
+### Value for TravelrMap: 
+- Increased brand awareness as a one-stop shop.
+- Lead nurtuting.
+- Be able to include a features booking whereby users are able to directly purchase when searching.
+- Able to build strategic partnerships with booking.com, AirBnB, SkySkanner, hotel.com and so on.
+- With increased traffic, can look to commercialise the website by selling advertising space. Also, devise partnership schems with attractions/hotels/restaurants to illustrate accurate information such as prices, promotional offers and booking availability.
+
+_Please note, some of these values are more aligned for long-term goals for TravelrMap, as it will not be feasible to develop all of this at once. Please see below Strategy Table and Scope for more context._
 
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
