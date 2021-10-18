@@ -18,6 +18,7 @@
     * [Disintegrated planning and booking](#disintegrated-planning-and-booking)
     * [Mobile Booking](#mobile-booking)
     * [Not having the right information](#not-having-the-right-information)
+  * [User Expectations](#user-expectations)
 
 # UX
 ## Goals
@@ -95,6 +96,25 @@ It also means, that users would like to know someone else had an enjoyable exper
 </details>
 
 [Back To Buyer Personas](#buyer-personas)
+
+[Back To UX](#ux)
+
+[Back To Top](#travelrmap)
+
+## User Expectations:
+
+- Mobile-friendly
+- Display points of interests in a visual manner
+- Easy navigation so the user are aware where they are on the website and purpose of each page.
+- Minimal content and beautiful imagery
+- Catchy and compelling headlines
+- Design is unique and stands out
+- Dark mode
+- Minimal amount of steps when making a purchase or booking
+- Emotional triggers - feeling that the application gives the consumer sense of belonging (branding)
+- Various types of content: video tutorials/white papers/blogs/testimonials/FAQ's/webinars
+- 404 error to inform users that a page does not exist
+- User feedback when user makes an error
 
 [Back To UX](#ux)
 
