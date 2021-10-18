@@ -193,6 +193,30 @@ As a User...
 
 ## Strategy Table
 
+Opportunity/Problem/Feature | Importance | Viability
+--------------------------- | ---------- | ---------
+Navbar -  Referring to interaction design, allowing the user to clearly identify where they are on a website | 5 | 5
+Plan an itinerary/trip - select destinations and start scheduling details and points of interests | 4 | 1
+About/How to Use | 5 | 5
+Share & Connect using social media and connect with travel lovers around the world | 5 | 5
+Quiz - "What do you love most about travelling" to make travelling fun and exciting and get recommendations | 5 | 4
+Micro interaction using animation - AOM scroll/animate.js/hamburger icon/landing page animation | 4 | 2
+TravelrMap | 5 | 4
+Search & Filter - users should be able to search for tips according to preferences. It helps the user find their next trip adventure and include suggestions to remind, guide and stimulate users to perform a certain action. When a user is searching, it should also prompt the user what they could search for | 5| 3
+Enable location services - ask the user if we can use their location details | 5 | 3
+Favourite a place of interest | 4 | 2
+Recommendations for you | 5 | 3
+Places of interest's details - shows a picture of place, information, temperature, map picker, reviews, nearby attractions. | 5 | 3
+404 Error | 5 | 3
+Gamification | 3 | 1
+Contact Form | 5 | 5
+Newsletter Sign-up | 5 | 3
+Dark Mode | 4 | 2
+Mobile Friendly | 5 | 4
+Social media links | 5 | 5
+AI to help users make decisions | 3 | 1
+Total | 92 | 64
+
 
 
 # Research Credits:
