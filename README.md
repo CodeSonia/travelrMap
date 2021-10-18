@@ -532,6 +532,27 @@ Please find below snapshots of the wireframes below:
 
 [Back To Top](#travelrmap)
 
+# Surface
+(Colors, Typography)
+
+# Features
+
+## Existing Features
+
+## Features Left To Implement
+
+# Technologies Used
+
+# Testing
+
+## Automated Testing
+
+## Manual Testing
+
+# Deployment
+
+# Credits
+
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
 2. https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/consumer-travel-smartphone-usage/
