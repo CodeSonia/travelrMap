@@ -542,7 +542,42 @@ Please find below snapshots of the wireframes below:
 ## Features Left To Implement
 
 # Technologies Used
-
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - used to structure the website and create the essential elements of my site. 
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
+  - used to style the markup and create custom styling. 
+- [JavaScript](https://www.javascript.com/) 
+  - used to manipulate the Document Object Model (DOM) elements while adding interactivity via functions, event listeners and so on.
+- [JQuery](https://jquery.com)
+    - used jQuery library to extend JavaScript functionality and help speed up the process.
+- [Bootstrap](https://getbootstrap.com/)
+  - used as the core structure of the website and make my site responsive. It also includes pre-built plugins such as jQuery. 
+- [Google Developer tools](https://developers.google.com/web/tools/chrome-devtools/) 
+  - to help solve a bug and help style my elements before writing code. 
+- [EmailJS](https://www.emailjs.com/)
+  - API used to enable users to send an email to site owner
+- [Google Fonts](https://fonts.google.com/) 
+  - used to import the font style and help create a unique brand. 
+- [GitPod](https://www.gitpod.io/) 
+  - used as the development environment to help write my code. 
+- [Git](https://git-scm.com/) 
+  - to enable version control and help commit changes to my site. 
+- [GitHub](https://github.com/) 
+  - used to store the source code and repository. 
+- [GitHub Pages](https://pages.github.com/) 
+  - used to deploy my website.
+- [AutoPrefixer](https://autoprefixer.github.io/)
+  - used to help parses your CSS and adds vendor prefixes
+- [Balsamiq](https://balsamiq.com/) 
+  - used to help create my wireframes. 
+- [TinyPanda](https://tinypng.com/)
+  - used to help compress the sizes of the images. 
+- [Affinity Photo](https://affinity.serif.com/en-gb/photo/) 
+  - used to help edit my photos and create my graphics. 
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) 
+  - used to to help edit and create my graphics. 
+- [Grammarly](https://app.grammarly.com/)
+    - used to rectify any grammar errors. 
 # Testing
 
 ## Automated Testing
