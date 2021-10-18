@@ -426,43 +426,43 @@ Please find below snapshots of the wireframes below:
 #### Tablet Wireframe: Home - 
 <details><summary></summary>
 
-![Tablet Wireframe: Home](assets/wireframes/tablet/table_home_wireframe.png)
+![Tablet Wireframe: Home](assets/wireframes/tablet/tablet_home_wireframe.png)
 </details>
 
 #### Tablet Wireframe: About - 
 <details><summary></summary>
 
-![Tablet Wireframe: About](assets/wireframes/tablet/table_about_wireframe.png)
+![Tablet Wireframe: About](assets/wireframes/tablet/tablet_about_wireframe.png)
 </details>
 
 #### Tablet Wireframe: TravelrMap Feature -
 <details><summary></summary>
 
-![Talet Wireframe: TravelrMap Feature](assets/wireframes/tablet/table_map_wireframe.png)
+![Tablet Wireframe: TravelrMap Feature](assets/wireframes/tablet/tablet_map_wireframe.png)
 </details>
 
 #### Tablet Wireframe: Location - 
 <details><summary></summary>
 
-![Tablet Wireframe: Location](assets/wireframes/tablet/table_location_wireframe.png)
+![Tablet Wireframe: Location](assets/wireframes/tablet/tablet_location_wireframe.png)
 </details>
 
 #### Tablet Wireframe: Quiz - 
 <details><summary></summary>
 
-![Tablet Wireframe: Quiz](assets/wireframes/tablet/table_quiz_wireframe.png)
+![Tablet Wireframe: Quiz](assets/wireframes/tablet/tablet_quiz_wireframe.png)
 </details>
 
 #### Tablet Wireframe: Contact - 
 <details><summary></summary>
 
-![Tablet Wireframe: Contact](assets/wireframes/tablet/table_contact_wireframe.png)
+![Tablet Wireframe: Contact](assets/wireframes/tablet/tablet_contact_wireframe.png)
 </details>
 
 #### Tablet Wireframe: Footer - 
 <details><summary></summary>
 
-![Tablet Wireframe: Footer](assets/wireframes/tablet/table_footer_wireframe.png)
+![Tablet Wireframe: Footer](assets/wireframes/tablet/tablet_footer_wireframe.png)
 </details>
 
 [Back To Skeleton](#skeleton)
