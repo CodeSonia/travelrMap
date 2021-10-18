@@ -469,6 +469,44 @@ Please find below snapshots of the wireframes below:
 
 [Back To Top](#travelrmap)
 
+### Desktop:
+
+#### Desktop Wireframe: Home - 
+<details><summary></summary>
+
+![Desktop Wireframe: Home](assets/wireframes/desktop/desktop_home_wireframe.png)
+</details>
+
+#### Desktop Wireframe: About - 
+<details><summary></summary>
+
+![Desktop Wireframe: About](assets/wireframes/desktop/desktop_about_wireframe.png)
+</details>
+
+#### Desktop Wireframe: TravelrMap Feature - 
+<details><summary></summary>
+
+![Desktop Wireframe: TravelrMap Feature](assets/wireframes/desktop/desktop_map_wireframe.png)
+</details>
+
+#### Desktop Wireframe: Things To Do - 
+<details><summary></summary>
+
+![Desktop Wireframe: Things To Do](assets/wireframes/desktop/desktop_things_todo_wireframe.png)
+</details>
+
+#### Desktop Wireframe: Attractions - 
+<details><summary></summary>
+
+![Desktop Wireframe: Attractions](assets/wireframes/desktop/desktop_attractions_wireframe.png)
+</details>
+
+#### Desktop Wireframe: Quiz - 
+<details><summary></summary>
+
+![Desktop Wireframe: Quiz](assets/wireframes/desktop/desktop_quiz_wireframe.png)
+</details>
+
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
 2. https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/consumer-travel-smartphone-usage/
