@@ -25,6 +25,13 @@
     * [Value for the User](#value-for-the-user)
     * [Value for TravelrMap](#value-for-travelrmap)
   * [User Stories](#user-stories)
+  * [Strategy Table](#strategy-table)
+- [Scope](#scope)
+  * [Functional Specifications](#functional-specifications)
+  * [Content Requirements](#content-requirements)
+  * [Release 1: (Informative Stage)](#release-1-informative-stage)
+  * [Release 2: (Extra Functionality)](#release-2-extra-functionality)
+  * [Release 3: (End Product)](#release-3-end-product)
 
 # UX
 
@@ -217,7 +224,58 @@ Social media links | 5 | 5
 AI to help users make decisions | 3 | 1
 Total | 92 | 64
 
+[Back To Strategy](#strategy)
 
+[Back To Top](#travelrmap)
+
+# Scope 
+As identified from the strategy table, it is not feasible to create every feature during the first development. As a result, I have listed 3 phases and identified what the minimum viable product is. This means, Phase 1 should be enough to satisfy TravelrMap's users and will have the opportunity to gather user feedback. 
+
+This will also allow TravlerMap to excite users when new features are developed - it is an on-going process! Especially with AI and automation being at the forefront of technology it would be cool to develop the project further one day using AI and algorithms to help users make effective decisions when organising travel and exploring what destination should be next.
+
+### Functional Specifications:
+- TravelrMap (map feature)
+- Contact Form
+- Trip Details
+
+### Content Requirements: 
+This is important since "__Content is King!"__ which implies that the reasoning as to why people revisit your website again, if it is useful, relevant, accessible and digestible. 
+
+- Mixed content such as imagery and text
+- Minimal content 
+- Large imagery/beautiful visuals
+- Eye-catching slogans and tag-lines
+- Creative design - illustration and animation the landing page will captivate users.
+
+## Release 1: (Informative Stage)
+- Navbar
+- About
+- Quiz
+- Micro Animation 
+- TravelrMap (map feature)
+- Contact Form
+- Mobile Friendly 
+- Social media links 
+
+## Release 2: (Extra Functionality)
+- Filter 
+- Enable Location Services
+- Favourite 
+- 404 Error Page
+- Dark Mode
+
+## Release 3: (End Product)
+- Create an itinerary and finding an itinerary 
+- Share & Connect 
+- Registration/Dashboard
+- Gamification
+- Bookings 
+
+The great thing about having a MVP and planned releases enables me to create a "WOW" effect. Therefore, as I unfold new features, new user experiences are created for the future. Thus, surprising users with incremental changes that have meaningful values.
+
+[Back To Scope](#scope)
+
+[Back To Top](#travelrmap)
 
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
