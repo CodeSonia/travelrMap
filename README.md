@@ -100,7 +100,7 @@ It also means, that users would like to know someone else had an enjoyable exper
 
 [Back To Top](#travelrmap)
 
-# Research Credit:
+# Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
 2. https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/consumer-travel-smartphone-usage/
 3. https://www.rezdy.com/resource/travel-statistics-for-tour-operators/ 
