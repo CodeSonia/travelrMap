@@ -14,6 +14,10 @@
     * [User Interview 1](#user-interview-1)
     * [User Interview 2](#user-interview-2)
     * [User Interview 3](#user-interview-3)
+  * [User Pain Points](#user-pain-points)
+    * [Disintegrated planning and booking](#disintegrated-planning-and-booking)
+    * [Mobile Booking](#mobile-booking)
+    * [Not having the right information](#not-having-the-right-information)
 
 # UX
 ## Goals
@@ -61,7 +65,8 @@ To summarise:
 
 ### User Pain Points:
 
-__Disintegrated planning and booking__
+#### Disintegrated planning and booking
+<details><summary></summary> 
 
 The internet has vast amount of information in how people can easily plan and book their travel. However, as travel sites and information has increased, so has the complexity of planning and booking a trip.
 
@@ -71,15 +76,23 @@ The internet has vast amount of information in how people can easily plan and bo
     >Travelers spent an average of 53 days visiting 28 different websites over a period of 76 online sessions. 
 
 That is a lot of time and effort for the average person to find their right travel plans. This can be further negative/painful for someone who is trying to plan an itinerary alongside a full-time career and family commitments. 
+</details>
 
-__Mobile Booking__
-
+#### Mobile Booking
+<details><summary></summary>
 70% of millennials book travel activities on mobile sevices. Research from Google Consumer Insights find that more than half of South Korean and Japanese smartphone users research, book and plan their trips on their mobile devices! [2]
 
 - If applications and websites do not operate on mobile, then user experience will thus decrease. Therefore, it is imperative to ensure TravelrMap is fulfilling this need.
+</details>
 
-__Not having the right information__
+### Not having the right information
+<details><summary></summary>
+As users can become quite overwhelmed, as pointed earlier, not having the right information at once can impair user experience when travelling - organisation of travelling should be fun, not hard work. 
 
+Users like to ensure that they're accumulating the right information, i.e. weather, location, travel and, other's experiences and so on. 
+
+It also means, that users would like to know someone else had an enjoyable experience, before making the choice. According to Tnooz [3], 95% of consumers read reviews before booking. This means if this information is not presented, value is not provided to the user.
+</details>
 
 [Back To Buyer Personas](#buyer-personas)
 
@@ -90,4 +103,5 @@ __Not having the right information__
 # Research Credit:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
 2. https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/consumer-travel-smartphone-usage/
+3. https://www.rezdy.com/resource/travel-statistics-for-tour-operators/ 
 
