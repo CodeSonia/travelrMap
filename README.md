@@ -554,6 +554,10 @@ I spent some time on researching other travel sites and applications to get a fe
 
 ## Logo
 
+For TravelrMap, I designed my own logo. The logo consists of a map and location marker. This is to help reinforce the site's purpose and branding. 
+
+![Logo Purpose](assets/readme_images/logo_purpose.png)
+
 # Features
 
 ## Existing Features
