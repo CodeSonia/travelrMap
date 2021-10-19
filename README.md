@@ -87,7 +87,7 @@ A travel web application for travellers to create a lifetime experience for them
 ### External User Goal:
 - Find the most suitable holiday destination to fulfil their needs.
 
-## Product Owner Goal:
+### Product Owner Goal:
 - Allow users to find places of attractions from TravelrMap so the website becomes a popular site in exploring new destinations. 
 
 ## Purpose
