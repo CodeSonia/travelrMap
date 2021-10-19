@@ -63,6 +63,8 @@
     * [Desktop Wireframe: Contact](#desktop-wireframe-contact)
     * [Desktop Wireframe: Footer](#desktop-wireframe-footer)
 - [Surface](#surface)
+  * [Research](#research)
+  * [Logo](#logo)
 - [Features](#features)
   * [Existing Features](#existing-features)
   * [Features Left to Implement](#features-left-to-implement)
@@ -544,7 +546,13 @@ Please find below snapshots of the wireframes below:
 [Back To Top](#travelrmap)
 
 # Surface
-(Colors, Typography)
+
+## Research
+I spent some time on researching other travel sites and applications to get a feel of what is currently out there, design patterns and inspiration. I created a moodboard of certain features I'd like to adopt into my project.
+
+![Travel moodboard/research](assets/readme_images/research.png)
+
+## Logo
 
 # Features
 
