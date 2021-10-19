@@ -62,6 +62,17 @@
     * [Desktop Wireframe: Quiz](#desktop-wireframe-quiz)
     * [Desktop Wireframe: Contact](#desktop-wireframe-contact)
     * [Desktop Wireframe: Footer](#desktop-wireframe-footer)
+- [Surface](#surface)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  * [Automated Testing](#automated-testing)
+  * [Manual Testing](#manual-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Research Credits](#research-credits)
 
 # UX
 
