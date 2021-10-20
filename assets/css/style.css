@@ -13,3 +13,9 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+/*-------------------------- navbar */
+.navbar-nav,
+.dropdown-menu {
+  text-align: right;
+}
