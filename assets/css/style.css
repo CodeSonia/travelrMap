@@ -20,7 +20,12 @@ body {
   text-align: right;
 }
 
-/*-------------------------- navbar */
+/*-------------------------- landing page */
 .landing-page-img{
   width: 100%;
+}
+
+#landing-header {
+  font-size: 3.5rem;
+  font-weight: 700;
 }
