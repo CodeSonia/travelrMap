@@ -133,7 +133,7 @@ a {
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1023px) {
   #landingPageAnimation {
     overflow: hidden;
   }
@@ -185,9 +185,38 @@ a {
   }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) and (max-width: 1399px){
   #rectangle {
     width: 350px;
+    height: 366px;
+  }
+
+  #landing-header {
+    font-size: 3.2rem;
+    line-height: 3rem;
+  }
+
+  .fab {
+    font-size: 1.5rem;
+  }
+
+  .landing-slogan {
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+  }
+
+  .std-button-style {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+  .primary-button {
+    padding: 8.5px;
+  }
+
+  .social-col {
+    padding-top: 0;
   }
 }
 
