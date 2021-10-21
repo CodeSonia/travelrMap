@@ -33,19 +33,21 @@ a {
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
 }
 
 .primary-button {
   background: -o-linear-gradient(345deg, #83ADD6, #B7B7DA);
   background: linear-gradient(105deg, #83ADD6, #B7B7DA);
   color: #fff;
+  padding: 11px;
 }
 
 .primary-button:hover,
 .secondary-button:hover {
   background: #B1AAD3;
   color: #fff;
-  transition: 1s;
 }
 
 .secondary-button {
@@ -55,11 +57,12 @@ a {
 
 .secondary-button:hover {
   border:none;
+  padding: 11px;
 }
 
 /*-------------------------- fa icons*/
 .fab {
-  font-size: 1.3rem;
+  font-size: 1rem;
   background: #33539E;
   color: #fff;
   margin: 5px;
@@ -87,7 +90,7 @@ a {
 }
 
 #landing-header {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
@@ -100,7 +103,7 @@ a {
 
 #rectangle {
   width: 160px;
-  height: 500px;
+  height: 340px;
   background: #EFE8E4;
   z-index: -10000;
   position: absolute;
@@ -114,16 +117,72 @@ a {
 
 /*-------------------------- Media Queries */
 
-@media (min-width: 425px){
- 
+@media (min-width: 321px) and (max-width: 375px){
+ #rectangle {
+   height: 377px;
+ }
 }
 
-@media (min-width: 375px){
-  
+@media (min-width: 376px) and (max-width: 475px){
+  #rectangle {
+    height: 427px;
+  }
+
+  #landing-header {
+    font-size: 2.8rem;
+  }
 }
 
 @media (min-width: 768px){
-  
+  #landingPageAnimation {
+    overflow: hidden;
+  }
+
+  .landing-page-img {
+    width: 125%;
+  }
+
+  .landing-slogan {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+  }
+
+  .fab {
+    font-size: 1.3rem;
+  }
+
+  .fab,
+  .social-col {
+    margin-top: 0;
+    
+  }
+
+  .user-location {
+    margin-bottom: 0;
+  }
+
+  .std-button-style {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+
+  .primary-button {
+    padding: 8px;
+  }
+
+  .user-location {
+    padding-top: 2rem;
+  }
+
+  .social-col {
+    padding-top: 0.5rem;
+  }
+
+  #landing-header {
+    padding-top: 0.5rem;
+  }
 }
 
 @media (min-width: 1024px){
