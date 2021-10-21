@@ -229,6 +229,7 @@ a {
   #landing-header {
     font-size: 4rem;
     line-height: 4rem;
+    margin-top: 1rem;
   }
 
   .fab {
@@ -240,11 +241,13 @@ a {
     font-size: 1.3rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
+    margin-top: 0.1rem;
   }
 
   .std-button-style {
     padding: 5px 10px;
     font-size: 1.3rem;
+    margin-top: 1.5rem;
   }
 
   .primary-button {
@@ -253,6 +256,7 @@ a {
 
   .social-col {
     padding-top: 0;
+    margin-top: 1rem;
   }
 
   .user-location {
