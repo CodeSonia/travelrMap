@@ -221,5 +221,41 @@ a {
 }
 
 @media (min-width: 1440px){
- 
+  #rectangle {
+    width: 350px;
+    height: 503px;
+  }
+
+  #landing-header {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .fab {
+    font-size: 1.5rem;
+  }
+
+  .landing-slogan {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+  }
+
+  .std-button-style {
+    padding: 5px 10px;
+    font-size: 1.3rem;
+  }
+
+  .primary-button {
+    padding: 8.5px;
+  }
+
+  .social-col {
+    padding-top: 0;
+  }
+
+  .user-location {
+    padding-top: 3rem;
+    font-size: 1rem;
+  }
 }
