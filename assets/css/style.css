@@ -56,6 +56,20 @@ a {
 .secondary-button:hover {
   border:none;
 }
+
+/*-------------------------- fa icons*/
+.fab {
+  font-size: 1.5rem;
+  background: #33539E;
+  color: #fff;
+  margin: 5px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  border-radius: 25%;
+}
+
 /*-------------------------- navbar */
 .navbar-nav,
 .dropdown-menu {
