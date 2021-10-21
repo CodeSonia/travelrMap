@@ -72,13 +72,43 @@ a {
   font-weight: 700;
 }
 
+.cust-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
 #rectangle {
   width: 160px;
   height: 500px;
   background: #EFE8E4;
   z-index: -10000;
   position: absolute;
-  left: 160px;
+  justify-content: flex-end;
 }
 
+
 /*-------------------------- Media Queries */
+
+@media (min-width: 425px){
+ 
+}
+
+@media (min-width: 375px){
+  
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 1024px){
+  #rectangle {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1440px){
+ 
+}
