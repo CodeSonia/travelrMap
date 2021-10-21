@@ -114,7 +114,38 @@ a {
   font-size: 0.8rem;
 }
 
+#about-animation {
+  width: 100%;
+}
 
+/*-------------------------- About Styles */
+/*.about-wrapper {
+  position: relative;
+  z-index: -10000000;
+}
+
+.custom-shape-divider-bottom-1634830544 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1634830544 svg {
+  position: relative;
+  display: block;
+  width: calc(141% + 1.3px);
+  height: 187px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1634830544 .shape-fill {
+  fill:blue;
+}
+*/
 /*-------------------------- Media Queries */
 
 @media (min-width: 321px) and (max-width: 375px){

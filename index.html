@@ -25,6 +25,11 @@
     integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Lottie CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.6/lottie.min.js"
+    integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
+    crossorigin="anonymous"></script>
+
   <!-- Main stylesheet-->
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -159,8 +164,47 @@
     </div>
   </section>
 
-  <section class="mt-5">
-    
+  <section class="mt-5 container">
+    <div class="about-wrapper">
+      <div class="custom-shape-divider-bottom-1634830544">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="uppercase text-center">Get ready for your lifetime journey.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">About</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="text-muted text-center">Your ultimate travel companion. Discover unfamiliar surrondings in new
+            places.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5">
+          <div id="about-animation">
+            
+
+              <lottie-player
+  id="firstLottie"
+  src="assets/json/about/lf30_editor_a1hi94z8.json"
+>
+</lottie-player>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <section class="mt-5">
@@ -189,7 +233,25 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
+
+  <script src="assets/js/about_animation.js"></script>
+
   <script src="assets/js/hamburger.js"></script>
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+
+  <script>LottieInteractivity.create({
+  mode: 'scroll',
+  player: '#firstLottie',
+  actions: [
+    {
+      visibility: [0, 1],
+      type: 'seek',
+      frames: [0, 500],
+    },
+  ],
+});</script>
+
 </body>
 
 </html>
