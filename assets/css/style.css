@@ -156,8 +156,30 @@ hr.block {
   font-size: 1.1rem;
 }
 
-.about-icons.fas {
-  font-size: 1rem;
+.about-icons{
+  font-size: 2.5rem;
+  display: flex;
+  position: absolute;
+}
+
+.about-section {
+  margin-top: 7rem;
+}
+
+.icons-circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: relative;
+  background: #7FACD6;
+  z-index: -10000;
+  justify-content: flex-end;
+  right: 25px;
+  bottom: 14px;
+}
+
+.section-wrapper {
+  position: relative;
 }
 /*-------------------------- Media Queries */
 
