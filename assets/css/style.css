@@ -56,7 +56,7 @@ a {
 }
 
 .secondary-button:hover {
-  border:none;
+  border: none;
   padding: 11px;
   outline: none;
   padding: 8px 10px;
@@ -78,6 +78,13 @@ a {
 .fab:hover {
   opacity: 0.7;
   color: #fff;
+}
+
+/*-------------------------- blocks */
+hr.block {
+  width: 70px;
+  height: 3px;
+  border-radius: 10px;
 }
 
 /*-------------------------- navbar */
@@ -124,15 +131,43 @@ a {
 #about-image {
   width: 100%;
 }
-/*-------------------------- Media Queries */
 
-@media (min-width: 321px) and (max-width: 375px){
- #rectangle {
-   height: 377px;
- }
+.secondary-header {
+  font-size: 3rem;
+  font-weight: 600;
+  display: flex;
+  margin-top: 0;
 }
 
-@media (min-width: 376px) and (max-width: 475px){
+.bg-header {
+  margin-top:0;
+  width: 70px;
+  height: 25px;
+  background: #FF7B89;
+  z-index: -10000;
+  position: relative;
+  justify-content: flex-end;
+  top: 55px;
+  right: 10px;
+}
+
+.about-tagline {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.about-icons.fas {
+  font-size: 1rem;
+}
+/*-------------------------- Media Queries */
+
+@media (min-width: 321px) and (max-width: 375px) {
+  #rectangle {
+    height: 377px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 475px) {
   #rectangle {
     height: 427px;
   }
@@ -165,7 +200,7 @@ a {
   .fab,
   .social-col {
     margin-top: 0;
-    
+
   }
 
   .user-location {
@@ -194,7 +229,7 @@ a {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1399px){
+@media (min-width: 1024px) and (max-width: 1399px) {
   #rectangle {
     width: 350px;
     height: 366px;
@@ -229,7 +264,7 @@ a {
   }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
   #rectangle {
     width: 350px;
     height: 503px;
