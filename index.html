@@ -225,47 +225,91 @@
   </section>
 
   <section class="mt-5 container">
-   <div class="row">
-     <!-- Maps Info -->
-     <div class="col-6">
-      <div class="row">
-        <div class="col">
-          <div class="bg-header"></div>
-          <h2 class="secondary-header">Map</h2>
-          <hr class="block">
+    <div class="row">
+      <!-- Maps Info -->
+      <div class="col-6">
+        <div class="row">
+          <div class="col">
+            <div class="bg-header"></div>
+            <h2 class="secondary-header">Map</h2>
+            <hr class="block">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h6 class="text-muted fst-italic">Search for anything you'd like to do in Turkey, UK & Morocco!</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <form class="d-flex">
+              <input class="form-control" type="search" placeholder="Where would you like to go?" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="filters mt-4">
+              <button class="filter-option">
+                <i class="fas fa-tree"></i>
+              </button>
+              <button class="filter-option">
+                <i class="fas fa-mountain"></i>
+              </button>
+              <button class="filter-option">
+                <i class="fas fa-utensils"></i>
+              </button>
+              <button class="filter-option">
+                <i class="fas fa-paint-brush"></i>
+              </button>
+              <button class="filter-option">
+                <i class="fas fa-umbrella-beach"></i>
+              </button>
+              <button class="filter-option">
+                <i class="fas fa-building"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-6">
+            <div class="card" style="width:15rem;">
+              <img src="assets/images/turkey/blue-mosque-at-summer-evening-2021-08-26-17-20-03-utc.jpg" class="card-img-top" alt="blue mosque skyline">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-map-marker-alt ms-1"></i> Blue Mosque</h5>
+                <a href="#" class="btn card-btn">Turkey</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card" style="width:15rem;">
+              <img src="assets/images/turkey/traditional-turkish-mosaic-lanterns-2021-08-26-22-36-04-utc.jpg" class="card-img-top" alt="blue mosque skyline">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-map-marker-alt ms-1"></i> Grand Bazaar</h5>
+                <a href="#" class="btn card-btn">Turkey</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <h6 class="text-muted fst-italic">Search for anything you'd like to do anywhere around the world!</h6>
+      <!-- Google Maps -->
+      <div class="col-6">
+        <div id="google-maps">
+
         </div>
+
       </div>
-      <div class="row">
-        <div class="col">
-          <!--location dropdown -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <!--filters -->
-        </div>
-      </div>
-     </div>
-     <!-- Google Maps -->
-     <div class="col-6">
-       <div id="google-maps">
-         
-       </div>
-      
-     </div>
-   </div>
+    </div>
   </section>
 
   <section class="mt-5">
     This will include the newsletter section - to gain interest.
 
   </section>
-  
+
   <footer>
     This will include the social media links and other links.
   </footer>
@@ -284,7 +328,11 @@
     crossorigin="anonymous"></script>
 
   <script src="assets/js/hamburger.js"></script>
-  </script>
+
+  <!-- Maps API -->
+ 
+
+  <script src="assets/js/map.js"></script>
 </body>
 
 </html>
