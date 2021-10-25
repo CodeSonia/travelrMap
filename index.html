@@ -35,6 +35,16 @@
 
   <!-- SEO Page Title -->
   <title>TravelrMap | Your ultimate travel companion. Discover unfamiliar surrondings in new places</title>
+
+  <!-- Email SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script><!--
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/integration
+          emailjs.init('user_jmfdV5khb1wzaP9YA1uIe');
+      })();
+  </script>-->
+  
 </head>
 
 <body>
@@ -310,69 +320,72 @@
   <section class="contact-section container">
     <div class="row">
       <div class="col-5">
-        <img src="assets/images/customer_service.png" alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
+        <img src="assets/images/customer_service.png"
+          alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
       </div>
       <div class="col-7">
+        <!-- Form start -->
         <div class="row">
           <div class="col">
-            <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
-          </div>
-          <!-- Form start -->
-          <div class="row">
-            <div class="col">
-              <form>
-                <fieldset>
-                  <div class="row">
-                    <div class="col">
-                      <div class="bg-header"></div>
-                      <legend class="secondary-header">Contact Us</legend>
-                      <hr class="block">
-                    </div>
+            <form id="contact-form">
+              <div class="row">
+                <div class="col">
+                  <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
+                </div>
+              </div>
+              <fieldset>
+                <div class="row">
+                  <div class="col">
+                    <div class="bg-header"></div>
+                    <legend class="secondary-header">Contact Us</legend>
+                    <hr class="block">
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <p>Fill this form in and we will personally help you plan your next adventure. Our Team at
-                        TravelrMap will
-                        aim to get back to you within 24 hours.</p>
-                      <p class="fst-italic">Dont like forms? Send us an <a href="mailto:sonia_ah@icloud.com"
-                          class="contact-email-link">email.</a></p>
-                    </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Fill this form in and we will personally help you plan your next adventure. Our Team at
+                      TravelrMap will
+                      aim to get back to you within 24 hours.</p>
+                    <p class="fst-italic">Dont like forms? Send us an <a href="mailto:sonia_ah@icloud.com"
+                        class="contact-email-link">email.</a></p>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <label for="fullName" class="form-title">Full Name:</label>
-                      <input id="fullName" type="text" placeholder="e.g. Sonia Hussain"
-                        aria-label="Write your full name" class="form-control" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="emailAddress" class="form-title">Email Address:</label>
-                      <input id="emailAddress" type="email" placeholder="example@gmail.com"
-                        aria-label="Write your email address" class="form-control" required>
-                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="name" class="form-title">Full Name:</label>
+                    <input id="name" type="text" placeholder="e.g. Sonia Hussain" aria-label="Write your full name"
+                      class="form-control" required name="from_name">
                   </div>
-                  <div class="row">
-                    <div class="col-12">
-                      <label for="userMessage" class="form-title">Message:</label>
-                      <textarea id="userMessage" rows="3" class="form-control" required placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..."></textarea>
-                    </div>
+                  <div class="col-md-6">
+                    <label for="emailaddress" class="form-title">Email Address:</label>
+                    <input id="emailaddress" type="email" placeholder="example@gmail.com"
+                      aria-label="Write your email address" class="form-control" required name="from_email">
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <button class="btn form-title contact-button">Send Message
-                        <i class="fas fa-chevron-right"></i>
-                      </button>
-                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <label for="message" class="form-title">Message:</label>
+                    <textarea id="message" rows="3" class="form-control" required
+                      placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..." name="message"></textarea>
                   </div>
-                  <div class="row">
-                    <div class="col social-col">
-                      <a href="#" class="fab fa-instagram"></a>
-                      <a href="#" class="fab fa-facebook"></a>
-                      <a href="#" class="fab fa-tiktok"></a>
-                    </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn form-title contact-button">Send Message
+                      <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <span id="success-email"></span>
                   </div>
-                </fieldset>
-              </form>
-            </div>
+                </div>
+                <div class="row">
+                  <div class="col social-col">
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-tiktok"></a>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
         </div>
       </div>
@@ -396,7 +409,11 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
+  <!-- Scripts -->
+
   <script src="assets/js/hamburger.js"></script>
+
+  <script src="assets/js/email.js"></script>
 
   <!-- Maps API -->
 

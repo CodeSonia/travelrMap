@@ -262,6 +262,11 @@ form .fab {
 .customer-service-img {
   width: 100%;
 }
+
+.contact-form {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 /*-------------------------- Media Queries */
 
 @media (min-width: 321px) and (max-width: 375px) {
