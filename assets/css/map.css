@@ -37,7 +37,7 @@ body {
   text-align:center;
 }
 
-ul {
+#places ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -46,7 +46,7 @@ ul {
 }
 
 
-li {
+#places li {
   background-color: #dbe4f2;
   padding: 7px;
   text-overflow: ellipsis;
@@ -55,7 +55,7 @@ li {
   cursor: pointer;
 }
 
-li:nth-child(odd) {
+#places li:nth-child(odd) {
   background-color: #fcfcfc;
 }
 
