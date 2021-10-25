@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map-container {
+  display: flex;
+}
+
+#sidebar {
+  flex-basis: 6rem;
+  flex-grow: 1;
+  padding: 1rem;
+  max-width: 50rem;
+  height: 500px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.result-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#map {
+  flex-basis: 0;
+  flex-grow: 4;
+  width: 100%;
+  max-height: 500px;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+
+li {
+  background-color: #dbe4f2;
+  padding: 7px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+li:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+
+#map-container button {
+  width: 100%;
+  padding: 0.7rem;
+  flex-grow: 0;
+  cursor: pointer;
+  background: #263f7a;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+#map-container button:hover {
+  opacity: 0.7;
+}
+
+button:hover {
+  color: #c5d4f0;
+}
+
+button:disabled {
+  background-color: #9fc1ee;
+  color: #c5d4f0;
+  cursor: auto;
+}

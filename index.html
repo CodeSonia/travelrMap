@@ -33,6 +33,9 @@
   <!-- Main stylesheet-->
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <!-- Map stylesheet -->
+  <link rel="stylesheet" href="assets/css/map.css">
+
   <!-- SEO Page Title -->
   <title>TravelrMap | Your ultimate travel companion. Discover unfamiliar surrondings in new places</title>
 
@@ -228,9 +231,10 @@
 
   </section>
 
+  <!--
   <section class="mt-5 container">
     <div class="row">
-      <!-- Maps Info -->
+      Maps Info 
       <div class="col-6">
         <div class="row">
           <div class="col">
@@ -301,16 +305,117 @@
           </div>
         </div>
       </div>
-      <!-- Google Maps -->
+      Google Maps 
       <div class="col-6">
-        <div id="google-maps">
+        <div id="">
 
         </div>
 
       </div>
     </div>
-  </section>
+  </section>-->
 
+<!-- Map Section -->
+  <section class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <div class="bg-header"></div>
+        <h2 class="secondary-header">Map</h2>
+        <hr class="block">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h6 class="text-muted fst-italic">Search for anything you'd like to do in Turkey, UK & Morocco!</h6>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-4">
+
+       
+      <!-- Countries -->
+      <div class="row my-4">
+        <div class="accordion" id="country-accordion"> </div>
+      </div>
+
+      <!-- Filter type -->
+      <div class="row my-4 d-none" id="filterContainer">
+        <div class="col">
+          <ul class="list-group list-group-horizontal filters">
+            <li class="list-group-item map-filter active" onclick="selectFilter(this.id)" id="restaurant">
+              <button class="filter-option">
+                restaurant
+                <i class="fas fa-pizza-slice"></i>
+              </button>
+            </li>
+
+            <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="hotel">
+              <button class="filter-option">
+                hotel
+                <i class="fas fa-bed"></i>
+              </button>
+            </li>
+
+            <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="tourist_attraction">
+              <button class="filter-option">
+                tourist attraction
+                <i class="fas fa-archway"></i>
+              </button>
+            </li>
+
+            <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="museum">
+              <button class="filter-option">
+                museum
+                <i class="fas fa-monument"></i>
+              </button>
+            </li>
+
+            <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="bar">
+              <button class="filter-option">
+                bar
+                <i class="fas fa-compact-disc"></i>
+              </button>
+            </li>
+
+            <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="cafe">
+              <button class="filter-option">
+                cafe
+                <i class="fas fa-coffee"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Attraction/Place search -->
+      <div class="row my-4 d-none" id="attractionSearchContainer">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Search for attraction</span>
+          </div>
+
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+            id="attractionSearch">
+
+          <button type="button" class="btn btn-primary" onClick="initMap(15)">Search</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-8">
+      <div id="map-container" class="container">
+        <div id="map"></div>
+      
+        <div id="sidebar">
+          <h2 class="result-header">Results</h2>
+          <ul id="places"></ul>
+          <button id="more">Load More Results</button>
+        </div>
+      </div>
+    
+  </div>
+
+
+<!-- Contact Form -->
   <section class="contact-section container">
     <div class="row">
       <div class="col-5">
@@ -393,22 +498,22 @@
                         </div>
                       </div>
                     </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col social-col">
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-facebook"></a>
-                    <a href="#" class="fab fa-tiktok"></a>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
           </div>
         </div>
+        <div class="row">
+          <div class="col social-col">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-tiktok"></a>
+          </div>
+        </div>
+        </fieldset>
+        </form>
       </div>
+    </div>
+    </div>
     </div>
   </section>
 
@@ -435,10 +540,19 @@
 
   <script src="assets/js/email.js"></script>
 
-  <!-- Maps API -->
+  <script src="assets/js/countries.js"></script>
 
+  <script src="assets/js/map_filters.js"></script>
+
+  <script src="assets/js/menu.js"></script>
 
   <script src="assets/js/map.js"></script>
+
+  <!-- Maps API -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1-X6y0v2lveVb4UF9b39F73anCx39ajo&callback=initMap&libraries=places&v=weekly&channel=2"
+    async></script>
+
 </body>
 
 </html>

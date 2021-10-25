@@ -43,6 +43,7 @@ $(document).ready(function () {
         $("#success-email").html(`Thank you for your enquiry! We'll aim to get back to you within 24 hours`);*/
       }, function (error) {
         console.log('FAILED...', error);
+        alert("Uh oh! That didn't work! Please try again")
       });
   });
 })
