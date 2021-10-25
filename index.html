@@ -37,14 +37,8 @@
   <title>TravelrMap | Your ultimate travel companion. Discover unfamiliar surrondings in new places</title>
 
   <!-- Email SDK -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script><!--
-  <script type="text/javascript">
-      (function() {
-          // https://dashboard.emailjs.com/admin/integration
-          emailjs.init('user_jmfdV5khb1wzaP9YA1uIe');
-      })();
-  </script>-->
-  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
 </head>
 
 <body>
@@ -366,7 +360,8 @@
                   <div class="col-12">
                     <label for="message" class="form-title">Message:</label>
                     <textarea id="message" rows="3" class="form-control" required
-                      placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..." name="message"></textarea>
+                      placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..."
+                      name="message"></textarea>
                   </div>
                 </div>
                 <div class="row">
@@ -375,6 +370,31 @@
                       <i class="fas fa-chevron-right"></i>
                     </button>
                     <span id="success-email"></span>
+                    <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Contact Form</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              Thanks for sending your message, I shall get in touch with you
+                              within 1-2 days!
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn modal-btn" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="row">
