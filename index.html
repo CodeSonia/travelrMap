@@ -326,7 +326,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h6 class="text-muted fst-italic">Search for anything you'd like to do in Turkey, UK & Morocco!</h6>
+        <h6 class="text-muted fst-italic">Pick any Country & City below! Start Exploring!</h6>
       </div>
     </div>
       <div class="row">
@@ -340,15 +340,13 @@
 
       <!-- Filter type -->
       <div class="row my-4 d-none" id="filterContainer">
-        <div class="col-3">
+        <div class="col">
           <ul class="list-group list-group-horizontal filters">
             <li class="list-group-item map-filter active" onclick="selectFilter(this.id)" id="restaurant">
               <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Restaurant">
-                
                 <i class="fas fa-pizza-slice"></i>
               </button>
             </li>
-
             <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="hotel">
               <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Hotel">
                 <i class="fas fa-bed"></i>
@@ -385,20 +383,23 @@
       <!-- Attraction/Place search -->
       <div class="row my-4 d-none" id="attractionSearchContainer">
         <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">Search for attraction</span>
-          </div>
-
+        
           <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
             id="attractionSearch">
 
-          <button type="button" class="btn btn-primary" onClick="initMap(15)">Search</button>
+          <button type="button" class="btn btn-search" onClick="initMap(15)">Search <i class="fas fa-search"></i></button>
         </div>
       </div>
     </div>
     <div class="col-8">
       <div id="map-container" class="container">
         <div id="map"></div>
+        <div id="infowindow-content">
+          <img id="place-icon" src="" height="16" width="16" />
+          <span id="place-name" class="title"></span><br />
+          Place ID <span id="place-id"></span><br />
+          <span id="place-address"></span>
+        </div>
       
         <div id="sidebar">
           <h2 class="result-header">Results</h2>

@@ -83,3 +83,24 @@ body {
 .list-group-item.active {
   border: #263f7a;
 }
+
+.btn-search {
+  background-color: #263f7a;
+  color: #fff;
+}
+
+.btn-search:hover {
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
