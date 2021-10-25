@@ -75,12 +75,11 @@ body {
   opacity: 0.7;
 }
 
-button:hover {
-  color: #c5d4f0;
+.list-group-horizontal>.list-group-item.active {
+  background: #263f7a;
+  outline: #263f7a;
 }
 
-button:disabled {
-  background-color: #9fc1ee;
-  color: #c5d4f0;
-  cursor: auto;
+.list-group-item.active {
+  border: #263f7a;
 }

@@ -1,3 +1,9 @@
+//jquery Tooltip
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+//selecting filters and changing backgrounds
 function selectFilter(id) {
   const filter = document.getElementById(id);
   
