@@ -122,6 +122,22 @@ hr.block {
   background: #263f7a;
 }
 
+.switch {
+  margin: 0.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid #FF7B89;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+}
 /*-------------------------- About Styles */
 #about-image {
   width: 100%;
