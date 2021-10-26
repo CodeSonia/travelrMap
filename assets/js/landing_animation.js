@@ -6,4 +6,4 @@ const animation =bodymovin.loadAnimation({
   loop: true,
   autoplay: true,
   name: "Landing Animation"
-})
+});

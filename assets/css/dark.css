@@ -4,3 +4,9 @@
   color: #e6e6e6;
   border-color: #e6e6e6;
 }
+
+.dark,
+.dark .navbar {
+  background-color: #222;
+  color: white;
+}

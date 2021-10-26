@@ -96,6 +96,9 @@ hr.block {
   border-radius: 10px;
 }
 
+nav {
+  background: #f8f9fa;
+}
 /*-------------------------- landing page */
 .user-location-button {
   border-radius: 0.8rem;

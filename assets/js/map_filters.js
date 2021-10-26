@@ -1,7 +1,7 @@
 //added jQuery tooltip on map filter
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
 //selecting filters and changing backgrounds
 function selectFilter(id) {

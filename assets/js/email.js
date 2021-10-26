@@ -1,4 +1,5 @@
 // initialise emailjs
+
 emailjs.init('user_jmfdV5khb1wzaP9YA1uIe');
 
 /** Clear input fields once email has been sent */
@@ -6,7 +7,7 @@ function clearInput() {
   document.getElementById("name").value = "",
   document.getElementById("emailaddress").value = "",
   document.getElementById("message").value = "";
-}
+} 
 
 //adapted code from emailJS to use jQuery selectors
 $(document).ready(function () {
@@ -44,7 +45,7 @@ $(document).ready(function () {
         //Error
       }, function (error) {
         console.log('FAILED...', error);
-        alert("Uh oh! That didn't work! Please try again")
+        alert("Uh oh! That didn't work! Please try again");
       });
   });
-})
+});

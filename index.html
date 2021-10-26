@@ -30,7 +30,7 @@
     crossorigin="anonymous"></script>
 
   <!-- Email SDK -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
   <!-- Hover CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
@@ -61,7 +61,7 @@
 
         <!-- Navbar brand -->
         <a class="navbar-brand" href="#travelrmap_home">
-          <img src="assets/images/travelrmap_logo_.png" alt="travelrMap logo" height="40" width="auto">
+          <img src="assets/images/travelrmap_logo_.png" alt="travelrMap logo" height="40">
         </a>
 
         <!-- Toggle button-->
@@ -123,7 +123,8 @@
         <!-- image replacing animation on smaller device for user experience-->
         <div class="row">
           <div class="col">
-            <img src="assets/images/main_illustration.png" class="small-img d-block d-sm-block d-md-none" alt="couple walking looking for their next travel destination using TravelrMap">
+            <img src="assets/images/main_illustration.png" class="small-img d-block d-sm-block d-md-none"
+              alt="couple walking looking for their next travel destination using TravelrMap">
           </div>
         </div>
         <!-- Social media buttons -->
@@ -174,7 +175,8 @@
       <div class="col-sm-12 col-md-6">
         <div data-aos="fade-right" data-asos-easing="ease">
           <img src="assets/images/search_application.png"
-            alt="female searching next travel destination using TravelrMap" id="about-image" class="display-none-small vertical-align">
+            alt="female searching next travel destination using TravelrMap" id="about-image"
+            class="display-none-small vertical-align">
         </div>
       </div>
       <!-- Right -->
@@ -194,22 +196,27 @@
           </div>
           <div class="row">
             <div class="col">
-              <h5 class="fst-italic about-slogan">Your ultimate travel companion. Discover unfamiliar surrondings in new places</h5>
+              <h5 class="fst-italic about-slogan">Your ultimate travel companion. Discover unfamiliar surrondings in new
+                places</h5>
             </div>
           </div>
           <div class="row">
-            <dic class="col">
-              <img src="assets/images/search_application.png" class="small-img d-block d-sm-block d-md-none">
-            </dic>
+            <div class="col">
+              <img src="assets/images/search_application.png" class="small-img d-block d-sm-block d-md-none"
+                alt="female searching next travel destination using TravelrMap">
+            </div>
           </div>
           <div class="row">
             <div class="col">
-              <p class="about-text">We understand how difficult it is to find your next vacation spot to spend with your family, partner
+              <p class="about-text">We understand how difficult it is to find your next vacation spot to spend with your
+                family, partner
                 and
                 friends</p>
-              <p class="about-text">We have made this easy for you so you could search what to do and create beautiful memories to share.
+              <p class="about-text">We have made this easy for you so you could search what to do and create beautiful
+                memories to share.
               </p>
-              <p class="about-text">We have specially curated top spots in <strong>Turkey, Morocco and the UK</strong></p>
+              <p class="about-text">We have specially curated top spots in <strong>Turkey, Morocco and the UK</strong>
+              </p>
             </div>
           </div>
           <div class="row mt-5">
@@ -323,7 +330,7 @@
           <div class="row my-4 d-none" id="attractionSearchContainer">
             <div class="input-group mb-3">
 
-              <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+              <input type="text" class="form-control" aria-label="Default"
                 id="attractionSearch">
 
               <button type="button" class="btn btn-search" onClick="initMap(15); isEmpty();">Search <i
@@ -339,7 +346,6 @@
 
             <!-- Window content-->
             <div id="infowindow-content">
-              <img id="place-icon" src="" height="16" width="16" />
               <span id="place-name" class="title"></span><br />
               Place ID <span id="place-id"></span><br />
               <span id="place-address"></span>
@@ -363,7 +369,8 @@
       <div class="col-sm-12 col-lg-6">
         <div data-aos="fade-right" data-asos-easing="ease">
           <img src="assets/images/customer_service.png"
-            alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img display-none-small">
+            alt="staff working for TravelrMap ready to answer customer queries"
+            class="customer-service-img display-none-small">
         </div>
       </div>
       <div class="col-sm-12 col-lg-6">
@@ -372,22 +379,15 @@
           <div class="col">
             <div data-aos="fade-left" data-asos-easing="ease">
               <form id="contact-form">
-                <div class="row">
-                  <div class="col">
-                    <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
-                  </div>
-                </div>
                 <fieldset>
+                  <legend class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</legend>
+                  <div class="bg-header"></div>
+                  <h2 class="secondary-header">Contact Us</h2>
+                  <hr class="block">
                   <div class="row">
                     <div class="col">
-                      <div class="bg-header"></div>
-                      <legend class="secondary-header">Contact Us</legend>
-                      <hr class="block">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <img src="assets/images/customer_service.png" alt="staff working ready to answer queries" class="small-img d-block d-sm-block d-md-none">
+                      <img src="assets/images/customer_service.png" alt="staff working ready to answer queries"
+                        class="small-img d-block d-sm-block d-md-none">
                     </div>
                   </div>
                   <div class="row">
@@ -447,14 +447,12 @@
                       </div>
                     </div>
                   </div>
+                </fieldset>
+              </form>
             </div>
           </div>
-          </fieldset>
-          </form>
         </div>
       </div>
-    </div>
-    </div>
     </div>
   </section>
 
@@ -471,19 +469,18 @@
           <h5>Contact Us
           </h5>
           <p class="contact-num">0121 556 8723</p>
-          <a href="mailto:info@travelrmap.co.uk"
-            class="footer-email-link">info@travelrmap.co.uk</a>
+          <a href="mailto:info@travelrmap.co.uk" class="footer-email-link">info@travelrmap.co.uk</a>
         </div>
         <div class="col-md-4">
           <!--Social footer -->
-          <h5>Keep updated</h5> 
+          <h5>Keep updated</h5>
           <div class="row">
             <div class="col social-col" id="footer-social">
               <a href="#" class="fab fa-instagram"></a>
               <a href="#" class="fab fa-facebook"></a>
               <a href="#" class="fab fa-tiktok"></a>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
       <div class="footer-copyright text-center py-4">

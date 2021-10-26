@@ -34,7 +34,7 @@ function initMap(zoom = 3) {
     radius: '3000',
     query: searchQuery,
     type: filters
-  }
+  };
 
   // Perform a nearby search.
   service.textSearch(request,
@@ -84,7 +84,7 @@ function getActiveCityLocation() {
     }
   }
 
-  return { lat: 0.00, lng: 0.00 }
+  return { lat: 0.00, lng: 0.00 };
 }
 
 // obtaining filters

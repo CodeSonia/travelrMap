@@ -83,7 +83,7 @@
       item.classList.add('list-group-item');
       item.classList.add('city');
       item.innerText = city.name;
-      item.setAttribute('id', city.name)
+      item.setAttribute('id', city.name);
       item.onclick = selectCity;
       
       menu.appendChild(item);
@@ -119,7 +119,7 @@
     const filterDom = document.getElementById('filterContainer');
 
     if (filterDom.classList.contains("d-none") ) {
-      filterDom.classList.remove("d-none")
+      filterDom.classList.remove("d-none");
     }
 
     removeHideClassWhereId('filterContainer');
@@ -134,8 +134,9 @@
     }
 
     if (domElement.classList.contains("d-none")) {
-      domElement.classList.remove("d-none")
+      domElement.classList.remove("d-none");
     }
   }
 })();
+
 
