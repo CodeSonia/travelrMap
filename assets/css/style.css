@@ -436,10 +436,12 @@ footer .fab {
   #landing-header {
     font-size: 3.2rem;
     line-height: 3rem;
+    margin-top: 1rem;
   }
 
   .fab {
     font-size: 1.5rem;
+    margin-left: 0;
   }
 
   .landing-slogan {
@@ -449,7 +451,7 @@ footer .fab {
   }
 
   .std-button-style {
-    padding: 5px 10px;
+    padding: 6px 10px;
     font-size: 1rem;
   }
 
@@ -460,13 +462,16 @@ footer .fab {
   .social-col {
     padding-top: 0;
   }
+
+  .nav-item {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 1440px) {
   #landing-header {
-    font-size: 4rem;
-    line-height: 4rem;
-    margin-top: 1rem;
+    font-size: 4.4rem;
+    margin-top: 1.3rem;
   }
 
   .fab {
@@ -496,5 +501,12 @@ footer .fab {
     margin-top: 1rem;
   }
 
+  .nav-item {
+    font-size: 1.4rem;
+  }
 
+  .switch {
+    margin-top: 2.2rem;
+  }
+  
 }
