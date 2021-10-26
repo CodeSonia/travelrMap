@@ -87,8 +87,7 @@ body {
 
 #filterContainer,
 .list-group-item,
-.map-filter,
-.active {
+.map-filter {
   display: flex;
   justify-content: center;
 }

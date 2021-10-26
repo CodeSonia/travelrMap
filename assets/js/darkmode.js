@@ -20,9 +20,6 @@ function darkMode() {
       // add dark.css
       link.rel = "stylesheet";
       link.href = "dark.css";
-
-      // Append link element to HTML head
-      head.appendChild(link);
     }
   });
 }

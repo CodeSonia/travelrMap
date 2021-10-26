@@ -105,8 +105,8 @@ hr.block {
   border: 2px solid #dbe4f2;
 }
 
-.landing-page-img {
-  width: 100%;
+#landingPageAnimation {
+  overflow: hidden;
 }
 
 #landing-header {
@@ -239,8 +239,9 @@ form .fab {
 }
 
 .modal-header {
-  background:#263f7a;
+  background: #263f7a;
 }
+
 .modal-title {
   color: #fff;
 }
@@ -251,9 +252,10 @@ form .fab {
 }
 
 .modal-btn {
-  background: #263f7a ;
+  background: #263f7a;
   color: #fff;
 }
+
 /*-------------------------- Footer style */
 .footer-section {
   background: #B1AAD3;
@@ -278,13 +280,30 @@ footer .social-col {
 footer .fab {
   font-size: 1rem;
 }
+
 /*-------------------------- Media Queries */
+@media (max-width: 425px) {
+ /*.hamburger {
+    margin-right: 7rem;
+  }*/
 
-@media (min-width: 321px) and (max-width: 375px) {}
+  .navbar {
+    margin: 0;
+  }
+}
 
-@media (min-width: 376px) and (max-width: 475px) {
+@media (max-width: 768px) {
   #landing-header {
-    font-size: 2.8rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  li.nav-item {
+    text-align: end;
+  }
+
+  .switch {
+    margin-top: 1rem;
   }
 }
 
