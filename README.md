@@ -613,6 +613,8 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   - used to create animation effects to add interactivity
 - [Lottie Files](https://lottiefiles.com/)
     - used to upload my After Effects animation into a json format
+- [AOM](https://github.com/michalsnik/aos#animations)
+  - used to add fade effects when scrolling 
 # Testing
 
 ## Automated Testing
