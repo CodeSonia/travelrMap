@@ -46,12 +46,12 @@
 
 <body>
   <header class="travelrmap_home">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
 
         <!-- Navbar brand -->
         <a class="navbar-brand" href="#travelrmap_home">
-          <img src="assets/images/travelrmap_logo_.png" alt="travelrMap logo" height="40">
+          <img src="assets/images/travelrmap_logo_.png" alt="travelrMap logo" height="40" width="auto">
         </a>
 
         <!-- Toggle button-->
@@ -86,7 +86,9 @@
   </header>
 
   <!-- Landing section-->
-  <section class="container mt-3">
+  <section class="container margin-top-5 {
+    margin-top: 5rem;
+  }">
     <div class="row">
       <div class="col-md-5">
         <div class="row">
@@ -152,7 +154,7 @@
   </section>
 
   <!-- About Section -->
-  <section class="container about-section" id="about">
+  <section class="container margin-top-5" id="about">
     <div class="row">
       <!-- Left -->
       <div class="col-lg-6">
@@ -211,7 +213,7 @@
   </section>
 
   <!-- Map Section -->
-  <section class="container mt-4" id="map-section">
+  <section class="container margin-top-5" id="map-section">
     <div class="row">
       <div class="col">
         <div class="bg-header"></div>
@@ -305,106 +307,107 @@
         </div>
 
       </div>
+    </div>
+  </section>
 
-
-      <!-- Contact Form -->
-      <section class="contact-section container" id="contact">
+  <!-- Contact Form -->
+  <section class="contact-section container margin-top-5" id="contact">
+    <div class="row">
+      <div class="col-5">
+        <img src="assets/images/customer_service.png"
+          alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
+      </div>
+      <div class="col-7">
+        <!-- Form start -->
         <div class="row">
-          <div class="col-5">
-            <img src="assets/images/customer_service.png"
-              alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
-          </div>
-          <div class="col-7">
-            <!-- Form start -->
-            <div class="row">
-              <div class="col">
-                <form id="contact-form">
-                  <div class="row">
-                    <div class="col">
-                      <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
-                    </div>
+          <div class="col">
+            <form id="contact-form">
+              <div class="row">
+                <div class="col">
+                  <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
+                </div>
+              </div>
+              <fieldset>
+                <div class="row">
+                  <div class="col">
+                    <div class="bg-header"></div>
+                    <legend class="secondary-header">Contact Us</legend>
+                    <hr class="block">
                   </div>
-                  <fieldset>
-                    <div class="row">
-                      <div class="col">
-                        <div class="bg-header"></div>
-                        <legend class="secondary-header">Contact Us</legend>
-                        <hr class="block">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <p>Fill this form in and we will personally help you plan your next adventure. Our Team at
-                          TravelrMap will
-                          aim to get back to you within 24 hours.</p>
-                        <p class="fst-italic">Dont like forms? Send us an <a href="mailto:sonia_ah@icloud.com"
-                            class="contact-email-link">email.</a></p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <label for="name" class="form-title">Full Name:</label>
-                        <input id="name" type="text" placeholder="e.g. Sonia Hussain" aria-label="Write your full name"
-                          class="form-control" required name="from_name">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="emailaddress" class="form-title">Email Address:</label>
-                        <input id="emailaddress" type="email" placeholder="example@gmail.com"
-                          aria-label="Write your email address" class="form-control" required name="from_email">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-12">
-                        <label for="message" class="form-title">Message:</label>
-                        <textarea id="message" rows="3" class="form-control" required
-                          placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..."
-                          name="message"></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <button class="btn form-title contact-button">Send Message
-                          <i class="fas fa-chevron-right"></i>
-                        </button>
-                        <span id="success-email"></span>
-                        <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title">Contact Form</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                <p>
-                                  Thanks for sending your message, I shall get in touch with you
-                                  within 1-2 days!
-                                </p>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn modal-btn" data-dismiss="modal">
-                                  Close
-                                </button>
-                              </div>
-                            </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Fill this form in and we will personally help you plan your next adventure. Our Team at
+                      TravelrMap will
+                      aim to get back to you within 24 hours.</p>
+                    <p class="fst-italic">Dont like forms? Send us an <a href="mailto:sonia_ah@icloud.com"
+                        class="contact-email-link">email.</a></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="name" class="form-title">Full Name:</label>
+                    <input id="name" type="text" placeholder="e.g. Sonia Hussain" aria-label="Write your full name"
+                      class="form-control" required name="from_name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="emailaddress" class="form-title">Email Address:</label>
+                    <input id="emailaddress" type="email" placeholder="example@gmail.com"
+                      aria-label="Write your email address" class="form-control" required name="from_email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <label for="message" class="form-title">Message:</label>
+                    <textarea id="message" rows="3" class="form-control" required
+                      placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..."
+                      name="message"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn form-title contact-button">Send Message
+                      <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <span id="success-email"></span>
+                    <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Contact Form</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              Thanks for sending your message, I shall get in touch with you
+                              within 1-2 days!
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn modal-btn" data-dismiss="modal">
+                              Close
+                            </button>
                           </div>
                         </div>
                       </div>
                     </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col social-col">
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-facebook"></a>
-                <a href="#" class="fab fa-tiktok"></a>
-              </div>
-            </div>
-            </fieldset>
-            </form>
+                  </div>
+                </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col social-col">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-tiktok"></a>
+          </div>
+        </div>
+        </fieldset>
+        </form>
+      </div>
+    </div>
     </div>
     </div>
   </section>

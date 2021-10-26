@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   font-size: 1rem;
   scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 
 body {
@@ -25,8 +26,10 @@ a {
   font-size: 1.1rem;
 }
 
+.margin-top-5 {
+  margin-top: 5rem;
+}
 /*-------------------------- button styles */
-
 .std-button-style {
   margin-top: 15px;
   display: block;
@@ -93,12 +96,14 @@ hr.block {
 }
 
 /*-------------------------- navbar */
-.navbar-nav,
-.dropdown-menu {
-  text-align: right;
+.nav-link{
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 /*-------------------------- landing page */
+
 .landing-page-img {
   width: 100%;
 }
@@ -160,10 +165,6 @@ hr.block {
   font-size: 2.5rem;
   display: flex;
   position: absolute;
-}
-
-.about-section {
-  margin-top: 7rem;
 }
 
 .icons-circle {
@@ -270,16 +271,10 @@ form .fab {
 /*-------------------------- Media Queries */
 
 @media (min-width: 321px) and (max-width: 375px) {
-  #rectangle {
-    height: 377px;
-  }
+
 }
 
 @media (min-width: 376px) and (max-width: 475px) {
-  #rectangle {
-    height: 427px;
-  }
-
   #landing-header {
     font-size: 2.8rem;
   }
@@ -338,11 +333,6 @@ form .fab {
 }
 
 @media (min-width: 1024px) and (max-width: 1399px) {
-  #rectangle {
-    width: 350px;
-    height: 366px;
-  }
-
   #landing-header {
     font-size: 3.2rem;
     line-height: 3rem;
@@ -373,11 +363,6 @@ form .fab {
 }
 
 @media (min-width: 1440px) {
-  #rectangle {
-    width: 350px;
-    height: 503px;
-  }
-
   #landing-header {
     font-size: 4rem;
     line-height: 4rem;
