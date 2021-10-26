@@ -73,7 +73,7 @@ function displayLocation(latitude,longitude){
 
                   // Using country as count/state/city could be too evasive in terms of privacy
                   //x.innerHTML = `<p>You're in ${country}!</p>`
-                  alert(`You're in ${country}!`);
+                  alert(`You're in${country}!`);
                   
               }
 
@@ -83,7 +83,7 @@ function displayLocation(latitude,longitude){
               }
           }
           else {
-              alert(`Unfortunately, there is a problem with with the service." + ${status}`);
+              alert(`Unfortunately, there is a problem with with the service. ${status}`);
           }
       }
   );
