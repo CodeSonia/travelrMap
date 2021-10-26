@@ -1,5 +1,4 @@
-//Able to populate other countries and cities in the future.
-
+/* Variable contains country and city's long and lat. This can be updated to add further countries and cities in the future */
 const COUNTRIES = [
   {
     name: "United Kingdom",
