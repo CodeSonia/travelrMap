@@ -295,7 +295,8 @@ footer .fab {
   font-size: 1rem;
 }
 
-.footer-email-link {
+.footer-email-link,
+.contact-num {
   color: inherit;
 }
 /*-------------------------- Media Queries */
@@ -337,8 +338,8 @@ footer .fab {
 
 @media (max-width: 768px) {
   #landing-header {
-    font-size: 2rem;
-    margin-top: 1rem;
+    font-size: 1.7rem;
+    margin-top: 0.6rem;
   }
 
   li.nav-item {
@@ -353,6 +354,21 @@ footer .fab {
 @media (min-width: 425px) and (max-width: 768px) {
   .customer-service-img {
     width: 70%;
+  }
+
+  div.switch {
+    font-size:0.8rem;
+  }
+
+  .inner-switch{
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .primary-button,
+  .secondary-button {
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 }
 
@@ -379,7 +395,7 @@ footer .fab {
   .fab,
   .social-col {
     margin-top: 0;
-
+    margin-left: 0;
   }
 
   .std-button-style {
@@ -391,12 +407,28 @@ footer .fab {
     padding: 8px;
   }
 
-  .social-col {
-    padding-top: 0.5rem;
-  }
-
   #landing-header {
     padding-top: 0.5rem;
+  }
+  
+  .vertical-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .about-text {
+    font-size: 0.8rem;
+  }
+
+  .about-slogan {
+    font-size: 1rem;
   }
 }
 
