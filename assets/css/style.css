@@ -299,6 +299,12 @@ footer .fab {
 .contact-num {
   color: inherit;
 }
+
+.footer-copyright {
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
 /*-------------------------- Media Queries */
 @media (max-width: 425px) {
   .navbar {
