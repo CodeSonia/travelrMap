@@ -281,6 +281,9 @@ footer .fab {
   font-size: 1rem;
 }
 
+.footer-email-link {
+  color: inherit;
+}
 /*-------------------------- Media Queries */
 @media (max-width: 425px) {
  /*.hamburger {
@@ -290,6 +293,7 @@ footer .fab {
   .navbar {
     margin: 0;
   }
+
 }
 
 @media (max-width: 768px) {
