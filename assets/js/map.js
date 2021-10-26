@@ -1,9 +1,11 @@
 // This example requires the Places library. Include the libraries=places
 // parameter when you first load the API. For example:
 // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
 function initMap(zoom = 3) {
   const location = getActiveCityLocation();
 
+  // get map
   const map = new google.maps.Map(document.getElementById("map"), {
     center: location,
     zoom,
@@ -15,6 +17,7 @@ function initMap(zoom = 3) {
   let getNextPage;
   const moreButton = document.getElementById("more");
 
+  /** If button "load more results" is requsted, it'll load more */
   moreButton.onclick = function () {
     moreButton.disabled = true;
     if (getNextPage) {
@@ -22,6 +25,7 @@ function initMap(zoom = 3) {
     }
   };
 
+  //function being stored into a variable
   const filters = getFilterTypes();
   const searchQuery = getSearchQuery();
 
@@ -49,14 +53,15 @@ function initMap(zoom = 3) {
   );
 }
 
+/*Gets the input type from user & it'll return closest match to query i.e. gh will produce places starting with gh or similar*/
 function getSearchQuery() {
   return document.getElementById('attractionSearch').value;
-  
 }
 
+/**Enables you to click on a respective city under a country and show the relevant information */
 function getActiveCityLocation() {
   const citiesDom = document.getElementsByClassName('city');
-
+  //Loop through different cities available
   for (let i = 0; i < citiesDom.length; i++) {
     const cityDom = citiesDom[i];
 
@@ -72,10 +77,12 @@ function getActiveCityLocation() {
   return { lat: 0.00, lng: 0.00 }
 }
 
+// obtaining filters
 function getFilterTypes() {
   const activeFilters = [];
   const filters = document.getElementsByClassName('map-filter');
 
+  //iterating each filter option available
   for (let i=0; i<filters.length; i++) {
     const filter = filters[i];
 
@@ -87,6 +94,7 @@ function getFilterTypes() {
   return activeFilters.join("|");
 }
 
+/**allows you add places in respect to their location */
 function addPlaces(places, map) {
   removeExistingPlaces();
 
@@ -122,6 +130,7 @@ function addPlaces(places, map) {
   }
 }
 
+/**Once a user clicks on a filter for a country, it'll remove the results in respect to clicking on another city and filter */
 function removeExistingPlaces() {
   const places = document.getElementsByClassName('place');
   const itemsToRemove = places.length;
@@ -132,3 +141,4 @@ function removeExistingPlaces() {
     places[0].remove();
   }
 }
+

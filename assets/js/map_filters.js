@@ -1,4 +1,4 @@
-//jquery Tooltip
+//added jQuery tooltip on map filter
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })

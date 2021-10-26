@@ -1,7 +1,13 @@
+//Namespace in order to access from other JS files
+
+/**Enables you to create an accordion  */
 (function MENU_NAMESPACE() {
   (function buildCountryAccordion() {
+
+    //get the accordian ID from html
     const accordion = document.getElementById("country-accordion");
 
+    //creates a div element for each country and adds onto existing accordion
     COUNTRIES.forEach((country, index) => {
       const accordionItem = document.createElement('div');
       accordionItem.classList.add('accordion-item');
@@ -12,15 +18,20 @@
       const body = buildAccordionBody(country, index);
       accordionItem.appendChild(body);
 
+      //apend the accordion item as a child element
       accordion.appendChild(accordionItem);
     });
   })();
 
+  /**Enables you to create the accordion header */
   function buildAccordionHeader(country, index) {
+
+    //target elemet
     const header = document.createElement('h2');
     header.classList.add('accordion-header');
     header.setAttribute('id', `heading${index}`);
 
+    //create button
     const button = document.createElement('button');
     button.classList.add('accordion-button');
 
@@ -31,12 +42,16 @@
     button.setAttribute('aria-controls', `collapse${index}`);
     button.innerText = country.name;
 
+    //button is added
     header.appendChild(button);
 
     return header;
   }
 
+  /** Allows you to build the accordion body */
   function buildAccordionBody(country, index) {
+
+    //target element
     const body = document.createElement('div');
     body.setAttribute('id', `collapse${index}`);
     body.classList.add('accordion-collapse');
@@ -58,6 +73,7 @@
     return body;
   }
 
+  /** Within the accordion body function, we now create the city menu */
   function buildCityMenu(country) {
     const menu = document.createElement('ul');
     menu.classList.add('list-group-flush');
@@ -76,6 +92,7 @@
     return menu;
   }
 
+  /** Create the city element in the accordion*/
   function selectCity (event) {
     const allCitiesDom = document.getElementsByClassName('city');
 
@@ -97,6 +114,7 @@
     initMap(15);
   }
 
+  /**Enables users to click on a filter once countries has been selected */
   function displaySearchOptions() {
     const filterDom = document.getElementById('filterContainer');
 
