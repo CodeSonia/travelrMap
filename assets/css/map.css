@@ -82,6 +82,15 @@ body {
 
 .list-group-item.active {
   border: #263f7a;
+  background-color: #263f7a;
+}
+
+#filterContainer,
+.list-group-item,
+.map-filter,
+.active {
+  display: flex;
+  justify-content: center;
 }
 
 .btn-search {
@@ -104,3 +113,4 @@ body {
 #map #infowindow-content {
   display: inline;
 }
+
