@@ -29,6 +29,7 @@ a {
 .margin-top-5 {
   margin-top: 5rem;
 }
+
 /*-------------------------- button styles */
 .std-button-style {
   margin-top: 15px;
@@ -96,13 +97,17 @@ hr.block {
 }
 
 /*-------------------------- navbar */
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   margin-right: 0.8rem;
   margin-left: 0.8rem;
 }
 
 /*-------------------------- landing page */
+.user-location-button {
+  border-radius: 0.8rem;
+  font-size: 1.1rem;
+}
 
 .landing-page-img {
   width: 100%;
@@ -118,19 +123,6 @@ hr.block {
   justify-content: flex-end;
   margin: 0;
   padding: 0;
-}
-
-#rectangle {
-  width: 160px;
-  height: 340px;
-  background: #EFE8E4;
-  z-index: -10000;
-  position: absolute;
-  justify-content: flex-end;
-}
-
-.user-location {
-  font-size: 0.8rem;
 }
 
 #about-animation {
@@ -223,7 +215,7 @@ hr.block {
 /*-------------------------- Contact Section */
 .contact-section {
   margin-top: 7rem;
- 
+
 }
 
 .contact-email-link {
@@ -268,11 +260,10 @@ form .fab {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
 /*-------------------------- Media Queries */
 
-@media (min-width: 321px) and (max-width: 375px) {
-
-}
+@media (min-width: 321px) and (max-width: 375px) {}
 
 @media (min-width: 376px) and (max-width: 475px) {
   #landing-header {
@@ -306,10 +297,6 @@ form .fab {
 
   }
 
-  .user-location {
-    margin-bottom: 0;
-  }
-
   .std-button-style {
     padding: 5px 10px;
     font-size: 0.8rem;
@@ -317,10 +304,6 @@ form .fab {
 
   .primary-button {
     padding: 8px;
-  }
-
-  .user-location {
-    padding-top: 2rem;
   }
 
   .social-col {
@@ -396,8 +379,5 @@ form .fab {
     margin-top: 1rem;
   }
 
-  .user-location {
-    padding-top: 3rem;
-    font-size: 1rem;
-  }
+
 }

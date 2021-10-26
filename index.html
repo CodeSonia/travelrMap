@@ -93,7 +93,8 @@
       <div class="col-md-5">
         <div class="row">
           <div class="col">
-            <p class="user-location">You're in X location</p>
+            <p onclick="getLocation()" class="btn user-location-button">Get location!</p>
+            <p id="user-x" class="user-location"></p>
           </div>
         </div>
         <div class="row">
@@ -444,6 +445,8 @@
   <script src="assets/js/map.js"></script>
 
   <script src="assets/js/landing_animation.js"></script>
+
+  <script src="assets/js/geolocation.js"></script>
 
   <!-- Maps API -->
   <script

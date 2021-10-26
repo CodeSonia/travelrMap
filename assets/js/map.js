@@ -213,4 +213,3 @@ function removeExistingPlaces() {
     places[0].remove();
   }
 }
-
