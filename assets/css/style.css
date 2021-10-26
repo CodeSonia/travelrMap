@@ -96,8 +96,6 @@ hr.block {
   border-radius: 10px;
 }
 
-/*-------------------------- navbar */
-
 /*-------------------------- landing page */
 .user-location-button {
   border-radius: 0.8rem;
@@ -313,6 +311,28 @@ footer .fab {
   .small-img {
     width: 100%;
   }
+  
+  .display-none-small {
+    display:none;
+  }
+
+  .fab {
+    font-size: 1.5rem;
+  }
+
+  div.col.social-col {
+    text-align:center;
+  }
+
+  .primary-button,
+  .secondary-button {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  #footer-social {
+    text-align: left;
+  }
 }
 
 @media (max-width: 768px) {
@@ -327,6 +347,12 @@ footer .fab {
 
   .switch {
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .customer-service-img {
+    width: 70%;
   }
 }
 
