@@ -134,6 +134,13 @@ hr.block {
   width: 100%;
 }
 
+.hvr-underline-from-center:before {
+  background: #263f7a;
+}
+
+.hvr-underline-from-center:after {
+  background: #263f7a;
+}
 /*-------------------------- About Styles */
 #about-image {
   width: 100%;
