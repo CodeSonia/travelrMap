@@ -55,8 +55,18 @@ function initMap(zoom = 3) {
 
 /*Gets the input type from user & it'll return closest match to query i.e. gh will produce places starting with gh or similar*/
 function getSearchQuery() {
-  return document.getElementById('attractionSearch').value;
+  return document.getElementById('attractionSearch').value; 
 }
+
+/**If user input is empty (null) then an alert will inform user to input something */
+function isEmpty() {
+  if (document.getElementById("attractionSearch").value=== "") {
+    alert("Oops! You need to type something to get results. Please try again!");
+    return false;
+  }
+  return true;
+}
+
 
 /**Enables you to click on a respective city under a country and show the relevant information */
 function getActiveCityLocation() {
@@ -141,4 +151,7 @@ function removeExistingPlaces() {
     places[0].remove();
   }
 }
+
+
+
 
