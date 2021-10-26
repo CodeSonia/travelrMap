@@ -210,7 +210,14 @@ hr.block {
 }
 
 .contact-email-link {
-  color: inherit;
+  color: #FF7B89;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.contact-email-link:hover {
+  color: #263f7a;
 }
 
 textarea {
@@ -270,6 +277,7 @@ form .fab {
   color: #fff;
 }
 
+
 /*-------------------------- Footer style */
 .footer-section {
   background: #B1AAD3;
@@ -297,6 +305,10 @@ footer .fab {
 
 .footer-email-link,
 .contact-num {
+  color: inherit;
+}
+
+.footer-email-link:hover {
   color: inherit;
 }
 
