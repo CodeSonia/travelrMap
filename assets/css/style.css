@@ -302,14 +302,17 @@ footer .fab {
 }
 /*-------------------------- Media Queries */
 @media (max-width: 425px) {
- /*.hamburger {
-    margin-right: 7rem;
-  }*/
-
   .navbar {
     margin: 0;
   }
 
+  #landingPageAnimation {
+    display:none;
+  }
+
+  .small-img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
