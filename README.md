@@ -577,6 +577,10 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   - used as the core structure of the website and make my site responsive. It also includes pre-built plugins such as jQuery. 
 - [Google Developer tools](https://developers.google.com/web/tools/chrome-devtools/) 
   - to help solve a bug and help style my elements before writing code. 
+- [Google Maps API](https://developers.google.com/maps)
+  - used to enable maps
+- [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+  - used to enable filter options and allow users to identify places of interest
 - [EmailJS](https://www.emailjs.com/)
   - API used to enable users to send an email to site owner
 - [Google Fonts](https://fonts.google.com/) 
@@ -601,6 +605,14 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   - used to to help edit and create my graphics. 
 - [Grammarly](https://app.grammarly.com/)
     - used to rectify any grammar errors. 
+- [Hover.css](https://ianlunn.github.io/Hover/)
+    - used to add hover effects onto elements
+- [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
+    - used to convert illustration layers to the top in order for me to create movements onto after effects
+- [After Effects](https://www.adobe.com/uk/products/aftereffects.html)
+  - used to create animation effects to add interactivity
+- [Lottie Files](https://lottiefiles.com/)
+    - used to upload my After Effects animation into a json format
 # Testing
 
 ## Automated Testing
@@ -611,6 +623,18 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
 
 # Credits
 
+- [Geo Location](https://stackoverflow.com/questions/6797569/get-city-name-using-geolocation) 
+  - able to create a function enabling geo location
+- [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+  - for providing foundation on incorporating API into application
+- Partner 
+  - For maintaining positivity and providing support during my application
+- Fatima at Code Institute
+  - Tutor support and guidance, especially when emailJS was not working. Fatima provided documentation and support and resulted me in fixing my issue (Thank you! :))
+- Maksim 
+  - For supporting me while creating the animation and providing guidance on how to create a walking cycle
+- Marcel (mentor)
+  - For providing constructive criticism and support for application
 # Research Credits:
 1. https://www.mdgadvertising.com/marketing-insights/7-travel-marketing-trends-worth-exploring-in-2017/
 2. https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/consumer-travel-smartphone-usage/
