@@ -113,3 +113,34 @@ body {
   display: inline;
 }
 
+/*-------------------------- Media Queries */
+@media (max-width: 425px) {
+
+   #places {
+     padding: 0;
+   }
+
+   #places li {
+     font-size: 0.7rem;
+     padding:0;
+   }
+
+   #sidebar{
+     margin: 0;
+     padding: 0;
+     max-height: 400px;
+   }
+
+   #map-container {
+     padding: 0;
+   }
+
+   .result-header {
+     font-size: 0.9rem;
+   }
+
+   #map-container button  {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+   }
+ }

@@ -290,10 +290,6 @@ footer .fab {
   .navbar {
     margin: 0;
   }
-
-  #map {
-    overflow:auto;
-  }
 }
 
 @media (max-width: 768px) {
