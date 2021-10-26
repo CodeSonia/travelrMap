@@ -6,7 +6,22 @@
 }
 
 .dark,
-.dark .navbar {
+.dark .secondary-button {
+  background: transparent;
+  color: #e6e6e6;
+}
+
+.dark,
+.dark .fas {
+  color: #263f7a;
+}
+
+.dark,
+.dark #places li {
   background-color: #222;
-  color: white;
+}
+
+.dark,
+.dark .footer-section {
+  background-color: #222;
 }
