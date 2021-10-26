@@ -2,14 +2,10 @@
 emailjs.init('user_jmfdV5khb1wzaP9YA1uIe');
 
 function clearInput() {
-  /*
-  $("#fullname").value = "",
-  $("#emailaddress").value = "",
-  $("#message").value = "";*/
 
   document.getElementById("name").value = "",
-        document.getElementById("emailaddress").value = "",
-        document.getElementById("message").value = "";
+  document.getElementById("emailaddress").value = "",
+  document.getElementById("message").value = "";
 }
 
 

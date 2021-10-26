@@ -25,19 +25,19 @@ function showError(error){
     switch(error.code){
       // Permission not enabled by user
         case error.PERMISSION_DENIED:
-            x.innerHTML="That's fine! You do not need to share your location with us :)"
+            alert("That's fine! You do not need to share your location with us :)")
         break;
         // Unable to locate position
         case error.POSITION_UNAVAILABLE:
-            x.innerHTML="Unfortunately, we're unable to locate your location :("
+            alert("Unfortunately, we're unable to locate your location :(")
         break;
         // Timer of callback function. Ran out of time
         case error.TIMEOUT:
-            x.innerHTML="Oh no! It looks like the request timed out :(. Please try again!"
+            alert("Oh no! It looks like the request timed out :(. Please try again!")
         break;
         //Unable to identify error
         case error.UNKNOWN_ERROR:
-            x.innerHTML="Oh no! Please try again."
+            alert("Oh no! Please try again.")
         break;
     }
 }
@@ -72,17 +72,18 @@ function displayLocation(latitude,longitude){
                   city=value[count-3];
 
                   // Using country as count/state/city could be too evasive in terms of privacy
-                  x.innerHTML = `<p>You're in ${country}!</p>`
+                  //x.innerHTML = `<p>You're in ${country}!</p>`
+                  alert(`You're in ${country}!`);
                   
               }
 
               //If we're unable to locate the user's location
               else  {
-                  x.innerHTML = `<p>Sorry! We can't get your address :(. Please try again!</p>`;
+                   alert(`Sorry! We can't get your address :(. Please try again!`);
               }
           }
           else {
-              x.innerHTML = `<p>Unfortunately, there is a problem with with the service." + ${status}</p>`;
+              alert(`Unfortunately, there is a problem with with the service." + ${status}`);
           }
       }
   );
