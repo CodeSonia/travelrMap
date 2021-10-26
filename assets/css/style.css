@@ -318,9 +318,9 @@ footer .fab {
   font-weight: 800;
 }
 
-/*-------------------------- Media Queries */
+/*-------------------------- 404 styles */
 .error-img {
-  width: 50%;
+  width: 100%;
 }
 /*-------------------------- Media Queries */
 @media (max-width: 425px) {
