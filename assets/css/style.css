@@ -254,6 +254,30 @@ form .fab {
   background: #263f7a ;
   color: #fff;
 }
+/*-------------------------- Footer style */
+.footer-section {
+  background: #B1AAD3;
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  width: 100%;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+footer .social-col {
+  margin-top: 0;
+  padding: 5px;
+}
+
+footer .fab {
+  font-size: 1rem;
+}
 /*-------------------------- Media Queries */
 
 @media (min-width: 321px) and (max-width: 375px) {}

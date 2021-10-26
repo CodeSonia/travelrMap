@@ -261,7 +261,8 @@
 
                     <!-- Attraction filter-->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="tourist_attraction">
-                      <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Tourist Attraction">
+                      <button class="filter-option" data-toggle="tooltip" data-placement="top"
+                        title="Tourist Attraction">
                         <i class="fas fa-archway"></i>
                       </button>
                     </li>
@@ -278,14 +279,14 @@
                         <i class="fas fa-monument"></i>
                       </button>
                     </li>
-                    
+
                     <!-- Bar -->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="bar">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Bar">
                         <i class="fas fa-compact-disc"></i>
                       </button>
                     </li>
-                    
+
                     <!-- Coffee -->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="cafe">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Cafe">
@@ -338,18 +339,18 @@
 
   <!-- Contact Form -->
   <section class="contact-section container margin-top-5" id="contact">
-      <div class="row">
-        <div class="col-5">
-          <div data-aos="fade-right" data-asos-easing="ease">
+    <div class="row">
+      <div class="col-5">
+        <div data-aos="fade-right" data-asos-easing="ease">
           <img src="assets/images/customer_service.png"
             alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
         </div>
       </div>
-        <div class="col-7">
-          <!-- Form start -->
-          <div class="row">
-            <div class="col">
-              <div data-aos="fade-left" data-asos-easing="ease">
+      <div class="col-7">
+        <!-- Form start -->
+        <div class="row">
+          <div class="col">
+            <div data-aos="fade-left" data-asos-easing="ease">
               <form id="contact-form">
                 <div class="row">
                   <div class="col">
@@ -398,7 +399,7 @@
                       <button class="btn form-title contact-button">Send Message
                         <i class="fas fa-chevron-right"></i>
                       </button>
-                      
+
                       <!-- Modal pop-up -->
                       <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
                         <div class="modal-dialog" role="document">
@@ -423,13 +424,6 @@
                   </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col social-col">
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-facebook"></a>
-              <a href="#" class="fab fa-tiktok"></a>
-            </div>
-          </div>
           </fieldset>
           </form>
         </div>
@@ -439,11 +433,37 @@
     </div>
   </section>
 
-  <footer>
-    This will include the social media links and other links.
+  <footer class="footer-section mt-3">
+    <div class="container">
+      <!--Footer about-->
+      <div class="row">
+        <div class="col-4">
+          <h5>About</h5>
+          <p>Your ultimate travel companion. Discover unfamiliar surrondings in new places.</p>
+        </div>
+        <div class="col-4">
+          <!-- Contact social-->
+          <h5>Contact Us
+          </h5>
+          <p>0121 556 8723</p>
+          <a href="mailto:info@travelrmap.co.uk"
+            class="footer-email-link">info@travelrmap.co.uk</a>
+        </div>
+        <div class="col-4">
+          <!--Social footer -->
+          <h5>Keep updated</h5> 
+          <div class="row">
+            <div class="col social-col">
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-facebook"></a>
+              <a href="#" class="fab fa-tiktok"></a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
   </footer>
-
-
+  
   <!-- jQuery-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 
