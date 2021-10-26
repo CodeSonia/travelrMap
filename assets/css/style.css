@@ -320,7 +320,7 @@ footer .fab {
 
 /*-------------------------- Media Queries */
 .error-img {
-  width: 100%;
+  width: 50%;
 }
 /*-------------------------- Media Queries */
 @media (max-width: 425px) {
