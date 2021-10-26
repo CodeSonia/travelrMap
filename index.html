@@ -93,12 +93,6 @@
       <div class="col-md-5">
         <div class="row">
           <div class="col">
-            <p onclick="getLocation()" class="btn user-location-button">Get location!</p>
-            <p id="user-x" class="user-location"></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
             <h1 id="landing-header">Say Yes to New Adventures</h1>
           </div>
         </div>
@@ -132,12 +126,14 @@
           <div class="col">
             <div class="row">
               <div class="col">
-                <a class="std-button-style primary-button" href="#" role="button">Map</a>
+                <a class="std-button-style secondary-button" onclick="getLocation();" href="#" role="button">Get My Location!</a>
+                <span id="user-x"></span>
               </div>
               <div class="col">
-                <a class="std-button-style secondary-button" href="#" role="button">Learn More</a>
+                <a class="std-button-style primary-button" href="#" role="button">Map</a>
               </div>
             </div>
+
           </div>
         </div>
       </div>

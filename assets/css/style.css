@@ -107,6 +107,11 @@ hr.block {
 .user-location-button {
   border-radius: 0.8rem;
   font-size: 1.1rem;
+  border: 2px solid #dbe4f2;
+}
+
+#user-x {
+  margin-top: 2rem;
 }
 
 .landing-page-img {
