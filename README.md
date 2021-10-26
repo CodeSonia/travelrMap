@@ -615,6 +615,9 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
     - used to upload my After Effects animation into a json format
 - [AOM](https://github.com/michalsnik/aos#animations)
   - used to add fade effects when scrolling 
+- [Jon Suh's Animated Hamburgers](https://jonsuh.com/hamburgers/)
+  - used to create an animated handburger and used jQuery to toggle
+  
 # Testing
 
 ## Automated Testing
