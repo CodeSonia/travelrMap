@@ -95,7 +95,7 @@
   <!-- Landing section-->
   <section class="container margin-top-5" id="home">
     <div class="row">
-      <div class="col-md-5" data-aos="fade-right" data-aos-offset="300" data-asos-easing="ease-in-sine"> 
+      <div class="col-md-5" data-aos="fade-right" data-aos-offset="300" data-asos-easing="ease-in-sine">
         <div class="row">
           <div class="col">
             <h1 id="landing-header">Say Yes to New Adventures</h1>
@@ -140,9 +140,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-7" data-aos="fade-left"
-      data-aos-offset="500"
-      data-aos-duration="500">
+      <div class="col-md-7" data-aos="fade-left" data-aos-offset="300" data-asos-easing="ease-in-sine">
         <div class="row">
           <div class="col">
             <div id="landingPageAnimation"></div>
@@ -157,53 +155,59 @@
     <div class="row">
       <!-- Left -->
       <div class="col-lg-6">
-        <img src="assets/images/search_application.png" alt="female searching next travel destination using TravelrMap"
-          id="about-image">
+        <div data-aos="fade-right" data-asos-easing="ease">
+          <img src="assets/images/search_application.png"
+            alt="female searching next travel destination using TravelrMap" id="about-image">
+        </div>
       </div>
       <!-- Right -->
       <div class="col-lg-6">
-        <div class="row">
-          <div class="col">
-            <h4 class="text-muted text-uppercase header-tagline">Get ready for your lifetime journey.</h4>
+        <div data-aos="fade-left" data-asos-easing="ease">
+          <div class="row">
+            <div class="col">
+              <h4 class="text-muted text-uppercase header-tagline">Get ready for your lifetime journey.</h4>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="bg-header"></div>
-            <h2 class="secondary-header">About</h2>
-            <hr class="block">
+          <div class="row">
+            <div class="col">
+              <div class="bg-header"></div>
+              <h2 class="secondary-header">About</h2>
+              <hr class="block">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h5 class="fst-italic">Your ultimate travel companion. Discover unfamiliar surrondings in new places</h5>
+          <div class="row">
+            <div class="col">
+              <h5 class="fst-italic">Your ultimate travel companion. Discover unfamiliar surrondings in new places</h5>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>We understand how difficult it is to find your next vacation spot to spend with your family, partner and
-              friends</p>
-            <p>We have made this easy for you so you could search what to do and create beautiful memories to share.</p>
-            <p>We have specially curated top spots in <strong>Turkey, Morocco and the UK</strong></p>
-            <p>If you are unsure where to go, you could always check out our "Where To Go?" quiz where you could find
-              suggestions based on your interests</p>
+          <div class="row">
+            <div class="col">
+              <p>We understand how difficult it is to find your next vacation spot to spend with your family, partner
+                and
+                friends</p>
+              <p>We have made this easy for you so you could search what to do and create beautiful memories to share.
+              </p>
+              <p>We have specially curated top spots in <strong>Turkey, Morocco and the UK</strong></p>
+              <p>If you are unsure where to go, you could always check out our "Where To Go?" quiz where you could find
+                suggestions based on your interests</p>
+            </div>
           </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col">
-            <i class="about-icons fas fa-book"></i>
-            <div class="icons-circle"></div>
-            <p class="icon-tag">Learn</p>
-          </div>
-          <div class="col">
-            <i class="about-icons fas fa-search"></i>
-            <div class="icons-circle"></div>
-            <p class="icon-tag">Discover</p>
-          </div>
-          <div class="col">
-            <i class="about-icons fas fa-route"></i>
-            <div class="icons-circle"></div>
-            <p class="icon-tag">Explore</p>
+          <div class="row mt-5">
+            <div class="col">
+              <i class="about-icons fas fa-book"></i>
+              <div class="icons-circle"></div>
+              <p class="icon-tag">Learn</p>
+            </div>
+            <div class="col">
+              <i class="about-icons fas fa-search"></i>
+              <div class="icons-circle"></div>
+              <p class="icon-tag">Discover</p>
+            </div>
+            <div class="col">
+              <i class="about-icons fas fa-route"></i>
+              <div class="icons-circle"></div>
+              <p class="icon-tag">Explore</p>
+            </div>
           </div>
         </div>
       </div>
@@ -213,198 +217,206 @@
 
   <!-- Map Section -->
   <section class="container margin-top-5" id="map-section">
-    <div class="row">
-      <div class="col">
-        <div class="bg-header"></div>
-        <h2 class="secondary-header">Map</h2>
-        <hr class="block">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h6 class="text-muted fst-italic">Pick any Country & City below! Start Exploring!</h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-
-
-        <!-- Countries -->
-        <div class="row my-4">
-          <div class="accordion" id="country-accordion"> </div>
-        </div>
-
-        <!-- Filter type -->
-        <div class="row my-4 d-none" id="filterContainer">
-          <div class="col">
-            <ul class="list-group list-group-horizontal filters">
-              <li class="list-group-item map-filter active" onclick="selectFilter(this.id)" id="restaurant">
-                <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Restaurant">
-                  <i class="fas fa-pizza-slice"></i>
-                </button>
-              </li>
-              <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="hotel">
-                <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Hotel">
-                  <i class="fas fa-bed"></i>
-                </button>
-              </li>
-
-              <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="tourist_attraction">
-                <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Tourist Attraction">
-                  <i class="fas fa-archway"></i>
-                </button>
-              </li>
-
-              <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="museum">
-                <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Museum">
-                  <i class="fas fa-monument"></i>
-                </button>
-              </li>
-
-              <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="bar">
-                <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Bar">
-                  <i class="fas fa-compact-disc"></i>
-                </button>
-              </li>
-
-              <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="cafe">
-                <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Cafe">
-                  <i class="fas fa-coffee"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Attraction/Place search -->
-        <div class="row my-4 d-none" id="attractionSearchContainer">
-          <div class="input-group mb-3">
-
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
-              id="attractionSearch">
-
-            <button type="button" class="btn btn-search" onClick="initMap(15)">Search <i
-                class="fas fa-search"></i></button>
-          </div>
+    <div data-aos="fade-bottom" data-asos-easing="ease">
+      <div class="row">
+        <div class="col">
+          <div class="bg-header"></div>
+          <h2 class="secondary-header">Map</h2>
+          <hr class="block">
         </div>
       </div>
-      <div class="col-8">
-        <div id="map-container" class="container">
-          <div id="map"></div>
-          <div id="infowindow-content">
-            <img id="place-icon" src="" height="16" width="16" />
-            <span id="place-name" class="title"></span><br />
-            Place ID <span id="place-id"></span><br />
-            <span id="place-address"></span>
+      <div class="row">
+        <div class="col">
+          <h6 class="text-muted fst-italic">Pick any Country & City below! Start Exploring!</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+
+
+          <!-- Countries -->
+          <div class="row my-4">
+            <div class="accordion" id="country-accordion"> </div>
           </div>
 
-          <div id="sidebar">
-            <h2 class="result-header">Results</h2>
-            <ul id="places"></ul>
-            <button id="more">Load More Results</button>
+          <!-- Filter type -->
+          <div class="row my-4 d-none" id="filterContainer">
+            <div class="col">
+              <ul class="list-group list-group-horizontal filters">
+                <li class="list-group-item map-filter active" onclick="selectFilter(this.id)" id="restaurant">
+                  <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Restaurant">
+                    <i class="fas fa-pizza-slice"></i>
+                  </button>
+                </li>
+                <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="hotel">
+                  <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Hotel">
+                    <i class="fas fa-bed"></i>
+                  </button>
+                </li>
+
+                <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="tourist_attraction">
+                  <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Tourist Attraction">
+                    <i class="fas fa-archway"></i>
+                  </button>
+                </li>
+
+                <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="museum">
+                  <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Museum">
+                    <i class="fas fa-monument"></i>
+                  </button>
+                </li>
+
+                <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="bar">
+                  <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Bar">
+                    <i class="fas fa-compact-disc"></i>
+                  </button>
+                </li>
+
+                <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="cafe">
+                  <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Cafe">
+                    <i class="fas fa-coffee"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Attraction/Place search -->
+          <div class="row my-4 d-none" id="attractionSearchContainer">
+            <div class="input-group mb-3">
+
+              <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+                id="attractionSearch">
+
+              <button type="button" class="btn btn-search" onClick="initMap(15)">Search <i
+                  class="fas fa-search"></i></button>
+            </div>
           </div>
         </div>
+        <div class="col-8">
+          <div id="map-container" class="container">
+            <div id="map"></div>
+            <div id="infowindow-content">
+              <img id="place-icon" src="" height="16" width="16" />
+              <span id="place-name" class="title"></span><br />
+              Place ID <span id="place-id"></span><br />
+              <span id="place-address"></span>
+            </div>
 
+            <div id="sidebar">
+              <h2 class="result-header">Results</h2>
+              <ul id="places"></ul>
+              <button id="more">Load More Results</button>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Form -->
   <section class="contact-section container margin-top-5" id="contact">
-    <div class="row">
-      <div class="col-5">
-        <img src="assets/images/customer_service.png"
-          alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
+    
+      <div class="row">
+        <div class="col-5">
+          <div data-aos="fade-right" data-asos-easing="ease">
+          <img src="assets/images/customer_service.png"
+            alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
+        </div>
       </div>
-      <div class="col-7">
-        <!-- Form start -->
-        <div class="row">
-          <div class="col">
-            <form id="contact-form">
-              <div class="row">
-                <div class="col">
-                  <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
-                </div>
-              </div>
-              <fieldset>
+      
+        <div class="col-7">
+          <!-- Form start -->
+          <div class="row">
+            <div class="col">
+              <div data-aos="fade-left" data-asos-easing="ease">
+              <form id="contact-form">
                 <div class="row">
                   <div class="col">
-                    <div class="bg-header"></div>
-                    <legend class="secondary-header">Contact Us</legend>
-                    <hr class="block">
+                    <h4 class="text-muted text-uppercase header-tagline">Let's talk. Ask us anything.</h4>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <p>Fill this form in and we will personally help you plan your next adventure. Our Team at
-                      TravelrMap will
-                      aim to get back to you within 24 hours.</p>
-                    <p class="fst-italic">Dont like forms? Send us an <a href="mailto:sonia_ah@icloud.com"
-                        class="contact-email-link">email.</a></p>
+                <fieldset>
+                  <div class="row">
+                    <div class="col">
+                      <div class="bg-header"></div>
+                      <legend class="secondary-header">Contact Us</legend>
+                      <hr class="block">
+                    </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <label for="name" class="form-title">Full Name:</label>
-                    <input id="name" type="text" placeholder="e.g. Sonia Hussain" aria-label="Write your full name"
-                      class="form-control" required name="from_name">
+                  <div class="row">
+                    <div class="col">
+                      <p>Fill this form in and we will personally help you plan your next adventure. Our Team at
+                        TravelrMap will
+                        aim to get back to you within 24 hours.</p>
+                      <p class="fst-italic">Dont like forms? Send us an <a href="mailto:sonia_ah@icloud.com"
+                          class="contact-email-link">email.</a></p>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <label for="emailaddress" class="form-title">Email Address:</label>
-                    <input id="emailaddress" type="email" placeholder="example@gmail.com"
-                      aria-label="Write your email address" class="form-control" required name="from_email">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="name" class="form-title">Full Name:</label>
+                      <input id="name" type="text" placeholder="e.g. Sonia Hussain" aria-label="Write your full name"
+                        class="form-control" required name="from_name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="emailaddress" class="form-title">Email Address:</label>
+                      <input id="emailaddress" type="email" placeholder="example@gmail.com"
+                        aria-label="Write your email address" class="form-control" required name="from_email">
+                    </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <label for="message" class="form-title">Message:</label>
-                    <textarea id="message" rows="3" class="form-control" required
-                      placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..."
-                      name="message"></textarea>
+                  <div class="row">
+                    <div class="col-12">
+                      <label for="message" class="form-title">Message:</label>
+                      <textarea id="message" rows="3" class="form-control" required
+                        placeholder="Hey, TravelrMap! I would like to know more information about your top spots in Turkey..."
+                        name="message"></textarea>
+                    </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <button class="btn form-title contact-button">Send Message
-                      <i class="fas fa-chevron-right"></i>
-                    </button>
-                    <span id="success-email"></span>
-                    <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title">Contact Form</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <p>
-                              Thanks for sending your message, I shall get in touch with you
-                              within 1-2 days!
-                            </p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn modal-btn" data-dismiss="modal">
-                              Close
-                            </button>
+                  <div class="row">
+                    <div class="col">
+                      <button class="btn form-title contact-button">Send Message
+                        <i class="fas fa-chevron-right"></i>
+                      </button>
+                      <span id="success-email"></span>
+                      <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Contact Form</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>
+                                Thanks for sending your message, I shall get in touch with you
+                                within 1-2 days!
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn modal-btn" data-dismiss="modal">
+                                Close
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col social-col">
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="fab fa-tiktok"></a>
+          <div class="row">
+            <div class="col social-col">
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-facebook"></a>
+              <a href="#" class="fab fa-tiktok"></a>
+            </div>
           </div>
+          </fieldset>
+          </form>
         </div>
-        </fieldset>
-        </form>
       </div>
     </div>
     </div>
