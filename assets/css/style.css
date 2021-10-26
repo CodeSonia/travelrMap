@@ -273,6 +273,22 @@ form .fab {
   padding-right: 2rem;
 }
 
+.modal-header {
+  background:#263f7a;
+}
+.modal-title {
+  color: #fff;
+}
+
+.modal-body,
+.modal-footer {
+  background: #f7f7f7;
+}
+
+.modal-btn {
+  background: #263f7a ;
+  color: #fff;
+}
 /*-------------------------- Media Queries */
 
 @media (min-width: 321px) and (max-width: 375px) {}

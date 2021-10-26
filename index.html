@@ -232,29 +232,34 @@
       </div>
       <div class="row">
         <div class="col-4">
-
-
           <!-- Countries -->
           <div class="row my-4">
             <div class="accordion" id="country-accordion"> </div>
           </div>
-
           <!-- Filter type -->
           <div class="row my-4 d-none" id="filterContainer">
             <div class="col">
               <div class="row">
+
+                <!-- Left grid-->
                 <div class="col-6">
                   <ul class="list-group">
+
+                    <!-- Restaurant filter-->
                     <li class="list-group-item map-filter active" onclick="selectFilter(this.id)" id="restaurant">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Restaurant">
                         <i class="fas fa-pizza-slice"></i>
                       </button>
                     </li>
+
+                    <!-- Hotel filter-->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="hotel">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Hotel">
                         <i class="fas fa-bed"></i>
                       </button>
                     </li>
+
+                    <!-- Attraction filter-->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="tourist_attraction">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Tourist Attraction">
                         <i class="fas fa-archway"></i>
@@ -262,20 +267,26 @@
                     </li>
                   </ul>
                 </div>
+
+                <!-- Right grid-->
                 <div class="col-6">
                   <ul class="list-group">
+
+                    <!-- Museum-->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="museum">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Museum">
                         <i class="fas fa-monument"></i>
                       </button>
                     </li>
-          
+                    
+                    <!-- Bar -->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="bar">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Bar">
                         <i class="fas fa-compact-disc"></i>
                       </button>
                     </li>
-          
+                    
+                    <!-- Coffee -->
                     <li class="list-group-item map-filter" onclick="selectFilter(this.id)" id="cafe">
                       <button class="filter-option" data-toggle="tooltip" data-placement="top" title="Cafe">
                         <i class="fas fa-coffee"></i>
@@ -299,9 +310,13 @@
             </div>
           </div>
         </div>
+
+        <!-- Google Maps -->
         <div class="col-8">
           <div id="map-container" class="container">
             <div id="map"></div>
+
+            <!-- Window content-->
             <div id="infowindow-content">
               <img id="place-icon" src="" height="16" width="16" />
               <span id="place-name" class="title"></span><br />
@@ -309,13 +324,13 @@
               <span id="place-address"></span>
             </div>
 
+            <!-- Results Sidebar-->
             <div id="sidebar">
               <h2 class="result-header">Results</h2>
               <ul id="places"></ul>
               <button id="more">Load More Results</button>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -323,7 +338,6 @@
 
   <!-- Contact Form -->
   <section class="contact-section container margin-top-5" id="contact">
-    
       <div class="row">
         <div class="col-5">
           <div data-aos="fade-right" data-asos-easing="ease">
@@ -331,7 +345,6 @@
             alt="staff working for TravelrMap ready to answer customer queries" class="customer-service-img">
         </div>
       </div>
-      
         <div class="col-7">
           <!-- Form start -->
           <div class="row">
@@ -385,20 +398,17 @@
                       <button class="btn form-title contact-button">Send Message
                         <i class="fas fa-chevron-right"></i>
                       </button>
-                      <span id="success-email"></span>
+                      
+                      <!-- Modal pop-up -->
                       <div class="modal" tabindex="-1" role="dialog" id="staticBackdrop">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title">Contact Form</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
+                              <h5 class="modal-title">Conact Form</h5>
                             </div>
                             <div class="modal-body">
                               <p>
-                                Thanks for sending your message, I shall get in touch with you
-                                within 1-2 days!
+                                Thank you for your enquiry! We'll aim to get back to you within 24 hours.
                               </p>
                             </div>
                             <div class="modal-footer">

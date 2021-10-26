@@ -73,8 +73,7 @@ function displayLocation(latitude,longitude){
 
                   // Using country as count/state/city could be too evasive in terms of privacy
                   //x.innerHTML = `<p>You're in ${country}!</p>`
-                  alert(`You're in${country}!`);
-                  
+                  alert(`You're in${country}!`);  
               }
 
               //If we're unable to locate the user's location

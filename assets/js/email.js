@@ -1,14 +1,12 @@
 // initialise emailjs
 emailjs.init('user_jmfdV5khb1wzaP9YA1uIe');
 
+/** Clear input fields once email has been sent */
 function clearInput() {
-
   document.getElementById("name").value = "",
   document.getElementById("emailaddress").value = "",
   document.getElementById("message").value = "";
 }
-
-
 
 //adapted code from emailJS to use jQuery selectors
 $(document).ready(function () {
@@ -24,19 +22,26 @@ $(document).ready(function () {
       "message": $("#message").val()
 
     };
-    // these IDs from the previous steps
+
+    // first paramater: service ID
+    // second parameter: template ID 
+    // IDs from template set-up on emailJS
     emailjs.send('service_ce0ljok', 'template_yy68wjb', templateParams)
       .then(function (response) {
         console.log('Enquiry Sent to TravelrMap!');
+
+        //call clearInput function
         clearInput();
+        
+        //show modal
         $(".modal").modal('show');
  
         // Close modal on button click
         $(".btn").click(function(){
             $(".modal").modal('hide');
         });
-        /*
-        $("#success-email").html(`Thank you for your enquiry! We'll aim to get back to you within 24 hours`);*/
+
+        //Error
       }, function (error) {
         console.log('FAILED...', error);
         alert("Uh oh! That didn't work! Please try again")
