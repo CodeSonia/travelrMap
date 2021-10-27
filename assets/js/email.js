@@ -29,8 +29,6 @@ $(document).ready(function () {
     // IDs from template set-up on emailJS
     emailjs.send('service_ce0ljok', 'template_yy68wjb', templateParams)
       .then(function (response) {
-        console.log('Enquiry Sent to TravelrMap!');
-
         //call clearInput function
         clearInput();
         
@@ -44,7 +42,6 @@ $(document).ready(function () {
 
         //Error
       }, function (error) {
-        console.log('FAILED...', error);
         alert("Uh oh! That didn't work! Please try again");
       });
   });
