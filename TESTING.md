@@ -62,4 +62,155 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](ht
 
 [Back to Top](#testing)
 
+### Wave Report/ Accessibility Testing
 
+As accessibility grows importance, I tested my site using the WAVE report. Please see the following errors/bugs I faced which are now resolved:
+
+1. Broken Link
+
+![Broken Link Error](assets/readme_images/broken_link.png)
+
+  __Solution__
+  - Corrected link to homepage
+
+2. Empty Links
+On the footer section, under social media icons, I did not include any links to the respective social media websites. 
+
+![Footer Social Media](assets/readme_images/footer_social_media.png)
+
+__Solution__
+- Updated each social media icon to it's respective social media website page. I also added `target="_blank"` attribute so the site opens on another tab.
+- I also updated this further, by adding a `sr-only` attribute to the respective span elements, so screen readers are aware of what the icon link means.
+
+[Back to Testing Tools](#testing-tools)
+
+[Back to Top](#testing)
+
+### JSHint
+In order to validate my JavaScript code, I used [JSHint](https://jshint.com/) and configured the settings so it enabled jQuery code and new JavaScript features.
+
+Please see the following reports:
+
+#### aos.js
+![aos.js result](assets/readme_images/jshint/aos_jshint.png)
+
+__Solution__
+  - Stored AOS into a variable:
+    - `let AOS;`
+
+![aos jshint solution](assets/readme_images/jshint/aos_jshint_solution.png)
+
+#### Countries JS file
+
+![countries.js jshint result](assets/readme_images/jshint/countries_jshint.png)
+
+__Solution__
+  - I ignored the unused variable error, due to the `const COUNTRIES` variable being used in other files. The separate file sheet was created for countries, to allow for other countries to be added without faffing about. It also separates the sheet and keeps the files organised, as well as being accessed via namespace.
+
+#### Dark Mode JS file
+
+![dark mode jshint result](assets/readme_images/jshint/darkmode_jshint_resullt.png)
+
+No errors identified!
+
+#### Email JS file
+
+![emailJS jshint result](assets/readme_images/jshint/email_jshint_result.png)
+
+__Attempted__
+- I did attempt to rectify the warning and undefined variable. However, the emailJS did not work, so I have chosen to ignore this now.
+
+- The `clearInput()` function is being called in the emailJS.send and attempted to add a stronger comparion `===` however, that did not work. I have therefore, put this error aside. I will attempt to rectify this error in the future.
+
+#### Geo Location JS file
+
+![Geo Location JS error](assets/readme_images/jshint/geolocation_jshint_errors.png)
+
+__Solution__
+  - I added the missing `;`
+  - I also stored the undefined variables
+  - However, it says that google and getLocation are unsused variable.
+
+#### Hamburger JS file
+
+![Hamburger JShint result](assets/readme_images/jshint/hamburger_jshint_result.png)
+
+No errors!
+
+#### Landing Page Animation JS file
+
+![landing Page Animation JShint result](assets/readme_images/jshint/landing_jshint_result.png)
+
+__Solution__
+  - `bodymovin` variable is accessed via the Lottie Files CDN to enable the animation to load, so I ignored the error here.
+
+#### Map Filter JS File
+
+![Map filter JSHint result](assets/readme_images/jshint/map_filter_jshint_result.png)
+
+  - I ignored the errors here, due to `initMap` defined by Google Maps API. 
+  - The `selectFilter()` is being used in a separate JS file.
+
+#### Map JS file
+
+![Map JShint result](assets/readme_images/jshint/map_jshint_result.png)
+  - `google` and `COUNTRIES` variables have been defined in separate files. Therefore, this was ignored. 
+
+#### Menu JS file
+
+![Menu JSHint result](assets/readme_images/jshint/menu_jshint_result.png)
+
+ - The same as above. 
+
+[Back to Testing Tools](#testing-tools)
+
+[Back to Top](#testing)
+
+## Manual Testing
+
+### Functionality
+
+#### Links and Buttons
+Component | Function | Work as Intended? | Fix
+--------- | --------- | ----------------- | ------|
+TravelrMap Logo | Takes the user back to homepage | Yes | N/A
+Navbar: Home | Takes the user to the homepage | Yes | N/A
+Navbar: About | Takes the user to the about section | Yes | N/A
+Navbar: Map | Takes the user to the map section | Yes | N/A
+Navbar: Contact | Takes the user to the contact section | Yes | N/A
+Home: Dark Mode Button | Enables users to toggle between light and dark theme | Yes | N/A
+Home: Social Media Links - Instagram | Allows the user to view TravelrMap's account on a new tab | Yes | N/A
+Home: Social Media Links - Facebook | Allows the user to view TravelrMap's Facebook account on a new tab | Yes | N/A
+Home: Social Media Links - TikTok | Allows the user to view TravelrMap's TikTok account on a new tab | Yes | N/A
+Home: Get Location! button | Alerts the user where their location is (if location is enabled) | Yes | N/A
+Home: Get Location! button | Location not enabled: throws an error | Yes | N/A
+Home: Get Location! button | Clicking on it too many times, results into error alert | Yes | N/A
+Home: Map button | Takes the user to the map section | Yes | N/A
+Map: Accordion | Drop-down menu allowing you to select Country and City | Yes | N/A
+Map: Accordion Filter | Allows you to select a filter and produce results | Yes | N/A
+Map: Search button | Does not allow a user to input nothing and throws an error | Yes | N/A
+Map: Search input | Enables user to search for location | Yes | N/A
+Map: Sidebar | Allows users to select on results and shows the icon on maps | Yes | N/A
+Map Sidebar load more results button | Enables users to produce further results | Yes | N/A
+Contact Us: email link| Enabling the user to use a clickable link to send an email as an alternative to filling out a form | Yes | N/A
+Contact Us: Send message button | Does not allow a user to input null / 0 input and prompts user to input correct fields | Yes | N/A
+Footer: Social Media Links | Social media links link to an external tab and correct links | Yes | N/A
+
+#### Hover Underline
+Component | Function | Work as Intended? | Fix
+--------- | --------- | ----------------- | ------|
+Navbar: Home | When a user hovers on Home on navbar, an underline appears | Yes | N/A
+Navbar: About | When a user hovers on About on navbar, an underline appears | Yes | N/A
+Navbar: Map | When a user hovers on Map on navbar, an underline appears | Yes | N/A
+Navbar: Contact | When a user hovers on Contact on navbar, an underline appears | Yes | N/A
+
+#### Micro Animation
+Component | Function | Work as Intended? | Fix
+--------- | --------- | ----------------- | ------|
+Navbar: Home | On Mobile hamburger icon toggles open and closes | Yes | N/A
+Section: AOS scroll effect | Scroll animation works | Yes | N/A
+
+
+[Back to Manual Testing](#manual-testing)
+
+[Back to Top](#testing)
