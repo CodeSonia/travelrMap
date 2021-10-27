@@ -5,6 +5,7 @@
 ![TravelrMap mockup](assets/readme_images/devices_mockup.png)
 
 Visit the live website here: [TravelrMap](https://codesonia.github.io/travelrMap/)
+
 [Back To Top](#travelrmap)
 
 # Table of Contents

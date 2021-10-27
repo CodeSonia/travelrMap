@@ -278,6 +278,10 @@ Users are able to click on the social media links and be directed to social medi
 
 A user is able to toggle the button off and on.
 
+6. As a user, I want to be able to return back to the site home page if I accidently arrive at a non-existent page
+
+![User story 5: 404 page](assets/readme_images/user-stories/user-story-6_404.png)
+
 [Back to Manual Testing](#manual-testing)
 
 [Back to Top](#testing)
