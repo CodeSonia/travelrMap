@@ -118,7 +118,7 @@ The internet has vast amount of information in how people can easily plan and bo
 - It takes too much time and hassle to find points of interests when planning trips. As a user they'll have to visit various websites or applications to find their required details to make an informed choice.
 - Feeling overwhelmed from having to navigate multiple pages and having to keep many tabs open, adding complexity to make a decision. This creates a negative experience for a user, as travel _should_ be a fun thing to do!
   - Nielson [1] research has found that:
-    >Travelers spent an average of 53 days visiting 28 different websites over a period of 76 online sessions. 
+    >Travellers spent an average of 53 days visiting 28 different websites over a period of 76 online sessions. 
 
 That is a lot of time and effort for the average person to find their right travel plans. This can be further negative/painful for someone who is trying to plan an itinerary alongside a full-time career and family commitments. 
 </details>
@@ -183,10 +183,10 @@ It also means, that users would like to know someone else had an enjoyable exper
 
 ### Value for TravelrMap: 
 - Increased brand awareness as a one-stop shop.
-- Lead nurtuting.
+- Lead nurturing.
 - Be able to include a features booking whereby users are able to directly purchase when searching.
 - Able to build strategic partnerships with booking.com, AirBnB, SkySkanner, hotel.com and so on.
-- With increased traffic, can look to commercialise the website by selling advertising space. Also, devise partnership schems with attractions/hotels/restaurants to illustrate accurate information such as prices, promotional offers and booking availability.
+- With increased traffic, can look to commercialise the website by selling advertising space. Also, devise partnership schemes with attractions/hotels/restaurants to illustrate accurate information such as prices, promotional offers and booking availability.
 
 _Please note, some of these values are more aligned for long-term goals for TravelrMap, as it will not be feasible to develop all of this at once. Please see below Strategy Table and Scope for more context._
 
@@ -204,7 +204,7 @@ As a Product Owner...
 
 As a User...
 
-- I want to be able to easily navigate the webiste so that I can find the content I am looking for. 
+- I want to be able to easily navigate the website so that I can find the content I am looking for. 
 - I want to be able to find destinations, so that I can see a variety of choices before making a decision.
 - I want to be able to contact TravlerMap regarding any query.
 - I want to be able to access social media accounts, so I can be part of TravelrMap's community.
@@ -403,7 +403,7 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   - When a user scrolls, sections appear from the side or from the bottom. This helps add a touch of modernism to TravelrMap as sites incorporate smooth animation.
 
 - Contact Form
-  - I have incorporated a simple contact form with html validation. I have also connected the contact form using EmailJS. This allows users to send enquries to the site owner.
+  - I have incorporated a simple contact form with html validation. I have also connected the contact form using EmailJS. This allows users to send enquires to the site owner.
   - When a user inputs their contact details, an outline appears. This is done so users are aware of which input section they're completing.
   - Submit/Modal - once a user is able to click submit, a modal opens up, thanking the user for their enquiry. It also states that users should expect an email response within 24 hours. This helps set user expectations.
 
@@ -415,14 +415,14 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   - A results sidebar appears and dynamically changes accordingly (on search query, filter, City and Country).
 
 - Get Location button 
-  - I've incorpoated a fun, get location button that allows users to identify their current location. This is of course, dependant on privacy and informs users accordingly if they're successful or not. 
+  - I've incorporated a fun, get location button that allows users to identify their current location. This is of course, dependant on privacy and informs users accordingly if they're successful or not. 
 
 - Dark Mode
   - I've also incorporated a dark mode feature, however, not all styling has been completed. This is due to short project time, and I wanted to show the assessors that I am able to create a script that enables users to toggle from day to night.
 
 - Landing Page Animation
   - I wanted to create a "wow" impression, so I created a walking cycle using After Effects. I then exported this into a JSON format and uploaded to Lottie Files. I wrote a script that enables this to appear on medium sized devices onwards. 
-  - The purpose of this is to show that interactvity such as animation, can be used.
+  - The purpose of this is to show that interactivity such as animation, can be used.
 
 - 404 Error Page
   - Created a simple 404 error page to inform users of any broken links. It is also good practice to help direct users back to the home page.
@@ -540,7 +540,7 @@ Click on `Use this template`.
   - Create your boilerplate and files, including assets
   - Write a concise commit message `git commit -m "git init"`
 
-6. You can deploy your project, whenver you are ready. (It is best practice to deploy early to avoid any discrepencies!)
+6. You can deploy your project, whenever you are ready. (It is best practice to deploy early to avoid any discrepancies!)
 
 7. Go to your project repository, and click on settings.
 

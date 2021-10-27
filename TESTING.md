@@ -120,7 +120,7 @@ No errors identified!
 __Attempted__
 - I did attempt to rectify the warning and undefined variable. However, the emailJS did not work, so I have chosen to ignore this now.
 
-- The `clearInput()` function is being called in the emailJS.send and attempted to add a stronger comparion `===` however, that did not work. I have therefore, put this error aside. I will attempt to rectify this error in the future.
+- The `clearInput()` function is being called in the emailJS.send and attempted to add a stronger comparison `===` however, that did not work. I have therefore, put this error aside. I will attempt to rectify this error in the future.
 
 #### Geo Location JS file
 
@@ -129,7 +129,7 @@ __Attempted__
 __Solution__
   - I added the missing `;`
   - I also stored the undefined variables
-  - However, it says that google and getLocation are unsused variable.
+  - However, it says that google and getLocation are unused variable.
 
 #### Hamburger JS file
 
@@ -219,13 +219,13 @@ Section: AOS scroll effect | Scroll animation works | Yes | N/A
 
 _Please note, some of the user stories overlap_
 
-1. As a user, I want to be able to easily navigate the webiste so that I can find the content I am looking for. 
+1. As a user, I want to be able to easily navigate the website so that I can find the content I am looking for. 
 
 ![User Story 1](assets/readme_images/user-stories/user-story-1.gif)
 
 2. As a user, I want to be able to find destinations, so that I can see a variety of choices before making a decision.
  
- - Click on the Map secton on navbar
+ - Click on the Map section on navbar
   ![User Story 2: Navbar](assets/readme_images/user-stories/user-story-2_navbar.png)
 
   - Alternatively, a user is able to click on the Map button on the landing page, which will also directly lead the user to the Map Feature:
@@ -270,7 +270,7 @@ _Please note, some of the user stories overlap_
 
 ![User Story 4: social media links](assets/readme_images/user-stories/user-story-4_socialmedia.png)
 
-Users are able to click on the social media links and be directed to social media accounts accordingly. Unfortunatley, TravelrMap does not have a any social media accounts as it is fictional, but this is to show good practice (opens in new tab, and color state changes when clicked).
+Users are able to click on the social media links and be directed to social media accounts accordingly. Unfortunately, TravelrMap does not have any social media accounts as it is fictional, but this is to show good practice (opens in new tab, and color state changes when clicked).
 
 5. As a user, I want to be able to switch to a dark mode version of the website, so that when I am browsing in the night or evening, it will help reduce eye strain.
 
