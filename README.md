@@ -617,6 +617,8 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   - used to add fade effects when scrolling 
 - [Jon Suh's Animated Hamburgers](https://jonsuh.com/hamburgers/)
   - used to create an animated handburger and used jQuery to toggle
+- [Favicon Generator](https://realfavicongenerator.net/)
+  - used to create favicons
   
 # Testing
 
