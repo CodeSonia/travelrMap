@@ -373,8 +373,6 @@ Please click on the following to view wireframes:
 
 [WIREFRAMES.md](WIREFRAMES.md)
 
-
-
 [Back To Skeleton](#skeleton)
 
 [Back To Top](#travelrmap)
@@ -395,6 +393,44 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
 # Features
 
 ## Existing Features
+
+- Navbar
+  - Easily able to navigate around the website as it has clear links and implies the order of priority of information. It is also fixed to the top, which helps guide users around the application. The navbar also collapses into an interactive hamburger icon when viewed on smaller devices. It also has further interactivity, as it closes when a user clicks on an item. This helps with the user experience.
+
+- About 
+  - The about section includes an engaging image, implying that a user can almost reflect and connect with the image as they could possibly picture themselves searching on the net for next travel destinations.
+  - It also has engaging text to help create excitement for the user.
+
+- Micro Animation
+  - The application incorporates micro animation i.e. hamburger icon as explained in the above.
+  - When a user scrolls, sections appear from the side or from the bottom. This helps add a touch of modernism to TravelrMap as sites incorporate smooth animation.
+
+- Contact Form
+  - I have incorporated a simple contact form with html validation. I have also connected the contact form using EmailJS. This allows users to send enquries to the site owner.
+  - When a user inputs their contact details, an outline appears. This is done so users are aware of which input section they're completing.
+  - Submit/Modal - once a user is able to click submit, a modal opens up, thanking the user for their enquiry. It also states that users should expect an email response within 24 hours. This helps set user expectations.
+
+- Map 
+  - I've used Google Maps and Places API to help create a map feature. The feature allows users to identify places of interests in corresponding countries and cities.
+  - Accordion dropdown menu - this allows users to easily select a Country and then the respective City.
+  - Upon selecting a Country and City, it allows users to filter out their options to Restaurants, Cafe, Hotel etc. I also incorporated a jQuery tooltip to allows users to understand what the icon is. I did include easily identifiable icons, but just to reinforce the title of the icons, a tooltip helps with this.
+  - Users are also able to search for a place. If a user searches with an empty space, user feedback is given and an alert is thus shown to prompt the user they need to type something to obtain results.
+  - A results sidebar appears and dynamically changes accordingly (on search query, filter, City and Country).
+
+- Get Location button 
+  - I've incorpoated a fun, get location button that allows users to identify their current location. This is of course, dependant on privacy and informs users accordingly if they're successful or not. 
+
+- Dark Mode
+  - I've also incorporated a dark mode feature, however, not all styling has been completed. This is due to short project time, and I wanted to show the assessors that I am able to create a script that enables users to toggle from day to night.
+
+- Landing Page Animation
+  - I wanted to create a "wow" impression, so I created a walking cycle using After Effects. I then exported this into a JSON format and uploaded to Lottie Files. I wrote a script that enables this to appear on medium sized devices onwards. 
+  - The purpose of this is to show that interactvity such as animation, can be used.
+
+- 404 Error Page
+  - Created a simple 404 error page to inform users of any broken links. It is also good practice to help direct users back to the home page.
+
+  _The above will be illustrated on user testing_
 
 ## Features Left To Implement
 

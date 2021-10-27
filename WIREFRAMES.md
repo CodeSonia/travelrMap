@@ -45,9 +45,7 @@
 ![Mobile Wireframe: Footer](assets/wireframes/mobile/mobile_footer_wireframe.png)
 </details>
 
-[Back To Skeleton](#skeleton)
-
-[Back To Top](#travelrmap)
+[Back To Wireframes](#wireframes)
 
 ### Tablet:
 
@@ -93,9 +91,7 @@
 ![Tablet Wireframe: Footer](assets/wireframes/tablet/tablet_footer_wireframe.png)
 </details>
 
-[Back To Skeleton](#skeleton)
-
-[Back To Top](#travelrmap)
+[Back To Wireframes](#wireframes)
 
 ### Desktop:
 
@@ -146,3 +142,5 @@
 
 ![Desktop Wireframe: Footer](assets/wireframes/desktop/desktop_footer_wireframe.png)
 </details>
+
+Click to go back to [README file](README.md) 
