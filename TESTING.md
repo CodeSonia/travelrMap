@@ -278,4 +278,21 @@ Users are able to click on the social media links and be directed to social medi
 
 A user is able to toggle the button off and on.
 
+[Back to Manual Testing](#manual-testing)
+
+[Back to Top](#testing)
+
+## Responsiveness
+
+Component | Function | Work as Intended? | Fix
+--------- | --------- | ----------------- | ------|
+**Text**| Should be clear, concise and visible on mobile, tablet and desktop devices| Yes | N/A
+**Layout**| Layout should be easily organised with logical hierarchy and elements are not overcrowded| Yes | N/A
+**Images**| Images should not appear distorted or pixelated and maintain it's aspect ratio | Yes | N/A
+**Functionality**| Functionality should be maintained on all screen sizes| Yes | N/A
+
+[Back to Top](#testing)
+
+[Back to README.md file](README.md)
+
 
