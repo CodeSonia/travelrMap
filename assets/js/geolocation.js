@@ -22,6 +22,8 @@ function showPosition(position) {
     displayLocation(lat, lon);
 }
 
+// Credit to: https://www.w3.org/TR/geolocation/
+
 /**Switch statement to show different errors below */
 function showError(error) {
     switch (error.code) {
