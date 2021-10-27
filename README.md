@@ -515,9 +515,7 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
   
 # Testing
 
-## Automated Testing
-
-## Manual Testing
+Please view [TESTING.md](TESTING.md)
 
 # Deployment
 
