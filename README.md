@@ -193,23 +193,14 @@ _Please note, some of these values are more aligned for long-term goals for Trav
 
 As a Product Owner...
 
-- I want to be able to provide users with relevant information regarding an attraction in Turkey, Morocco & UK, so that the users are able to find what they're looking for.
-- I want the site to provide a positive user experience, so that users can come back to the website for another purpose in the future.
 - I want to be able to use the website myself, if I was looking or discovering a new place for a new adventure.
 - I want to be able to be contactable, so I can listen to user feedback or help my users.
 - I want to be able to provide user feedback, so that my users are able to rectify their mistake by TravelrMap being helpful in identifying user error.
-- I want to be able to increase the number of trips booked by users, so that I can meet the business financial goals.
 
 As a User...
 
-- I want to casually browse and want to be able to feel inspired, so that I could book a trip in the future.
-- I want to be able to find destinations, so that I can see a variety of choices before making a decision.
-- I want to be able to see reviews made from previous travellers, so that I know I am making the right choice.
-- I want to be able to find details of the point of attraction, so I can learn more about the place of interest.
-- I want to be able to find nearby attractions, restaurants, things to do, so that I can make the most of my trip.
-- I want to be able to be kept up with the latest news, updates and promotions, so that I can keep up-to-date with TravelrMap.
 - I want to be able to easily navigate the webiste so that I can find the content I am looking for. 
-- I want to be able to find the best locations in Turkey, UK & Morocco. 
+- I want to be able to find destinations, so that I can see a variety of choices before making a decision.
 - I want to be able to contact TravlerMap regarding any query.
 - I want to be able to access social media accounts, so I can be part of TravelrMap's community.
 - I want to be able to switch to a dark mode version of the website, so that when I am browsing in the night or evening, it will help reduce eye strain.

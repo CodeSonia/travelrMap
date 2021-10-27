@@ -214,3 +214,68 @@ Section: AOS scroll effect | Scroll animation works | Yes | N/A
 [Back to Manual Testing](#manual-testing)
 
 [Back to Top](#testing)
+
+## Testing User Stories
+
+_Please note, some of the user stories overlap_
+
+1. As a user, I want to be able to easily navigate the webiste so that I can find the content I am looking for. 
+
+![User Story 1](assets/readme_images/user-stories/user-story-1.gif)
+
+2. As a user, I want to be able to find destinations, so that I can see a variety of choices before making a decision.
+ 
+ - Click on the Map secton on navbar
+  ![User Story 2: Navbar](assets/readme_images/user-stories/user-story-2_navbar.png)
+
+  - Alternatively, a user is able to click on the Map button on the landing page, which will also directly lead the user to the Map Feature:
+
+  ![User Story 2: Map button](assets/readme_images/user-stories/user-story-2_map_button.png)
+
+  As you can see, the map button changed it's color state to indicate when a button has been hovered or not. 
+
+- Select a Country and then a City from the accordion feature
+
+  ![User Story 2: Accordion Feature](assets/readme_images/user-stories/user-story-2_accordion.png)
+
+- A user is then presented with filters and can select one a filter like so, which generates results. This allows users to be particular when searching and, is then able to see a variety of choices:
+
+  ![User Story 2: Map Filters](assets/readme_images/user-stories/user-story-2_filters.png)
+
+  - The user is also able to hover over the filter icons where they'd be shown what the filter is (if they're unsure)
+
+- A user is also able to search a query. If the user does not input anything, it displays an alert accordingly, prompting the user:
+
+  ![User Story 2: Alert](assets/readme_images/user-stories/user-story-2_alert.png)
+
+- As a user input's their query, results are dynamically shown. This allows the user see where the place of interest is and the location name
+
+  ![User Story 2: Result](assets/readme_images/user-stories/user-story-2_searchresult.png)
+
+3. As a user, I want to be able to contact TravlerMap regarding any query.
+
+  ![User Story 3](assets/readme_images/user-stories/user-story-3.gif)
+
+  A user is able to click on Contact on navbar, where they are taken to the contact section. A user is then prompted to enter valid inputs into the input fields. 
+
+  As soon as the enquiry is sent, the user is informed with a modal. 
+
+  The input fields are cleared too! 
+
+  Confirmation that the email is working and has been sent to site owner:
+
+  ![Email confirmation](assets/readme_images/user-stories/user-story-3_confirmation.png)
+
+4. As a user, I want to be able to access social media accounts, so I can be part of TravelrMap's community.
+
+![User Story 4: social media links](assets/readme_images/user-stories/user-story-4_socialmedia.png)
+
+Users are able to click on the social media links and be directed to social media accounts accordingly. Unfortunatley, TravelrMap does not have a any social media accounts as it is fictional, but this is to show good practice (opens in new tab, and color state changes when clicked).
+
+5. As a user, I want to be able to switch to a dark mode version of the website, so that when I am browsing in the night or evening, it will help reduce eye strain.
+
+![User story 5: dark mode toggle](assets/readme_images/user-stories/user-story-5_darkmode.png)
+
+A user is able to toggle the button off and on.
+
+
