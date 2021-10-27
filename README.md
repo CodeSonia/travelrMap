@@ -270,19 +270,20 @@ This is important since "__Content is King!"__ which implies that the reasoning 
 ## Release 1: (Informative Stage)
 - Navbar
 - About
-- Quiz
 - Micro Animation 
 - TravelrMap (map feature)
 - Contact Form
 - Mobile Friendly 
 - Social media links 
+- Enable Location Services
+- 404 Error Page
 
 ## Release 2: (Extra Functionality)
 - Filter 
-- Enable Location Services
 - Favourite 
-- 404 Error Page
 - Dark Mode
+- Where To Go? (quiz)
+- Locations
 
 ## Release 3: (End Product)
 - Create an itinerary and finding an itinerary 
@@ -432,7 +433,29 @@ For TravelrMap, I designed my own logo. The logo consists of a map and location 
 
   _The above will be illustrated on user testing_
 
+[Back to Features](#features)
+
+[Back to Top](#travelrmap)
+
 ## Features Left To Implement
+
+- Locations
+  - I would like to build my locations page which will show users curated spots and places of interests in selected countries.
+  - This will also include a map and cluster markers of places of interests where users can dynamically filter out options.
+  - They would also be inspired as they'll be shown pictures and video content to help inform their decisions.
+
+- Reviews
+  - I would like to incorporate reviews under sections, where users can view Google Reviews. This would be a great feature to help reaffirm user's decisions and/or help with decision-making.
+
+- Dark Mode
+  - I would like to complete the styling of the dark mode.
+
+- Quiz 
+  - This would be a nice, fun feature where users can select their preferences and get recommendations as to which destination they should visit. 
+
+[Back to Features](#features)
+
+[Back to Top](#travelrmap)
 
 # Technologies Used
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
